@@ -1,0 +1,106 @@
+{
+  "resourceType": "ValueSet",
+  "id": "diagnosis-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/diagnosis-values",
+  "name": "diagnosis-values",
+  "title": "Diagnosis values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Diagnosis element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "A74.9",
+            "display": "Chlamydia"
+          },
+          {
+            "code": "A53.9",
+            "display": "Syphilis"
+          },
+          {
+            "code": "B37",
+            "display": "Yeast infection"
+          },
+          {
+            "code": "A59.9",
+            "display": "Trichomoniasis"
+          },
+          {
+            "code": "N73.9",
+            "display": "Pelvic Inflammatory Disease"
+          },
+          {
+            "code": "A48.3",
+            "display": "Toxic shock syndrome"
+          },
+          {
+            "code": "N39; Z87.440",
+            "display": "Urinary tract infection"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "105629000",
+            "display": "Chlamydia"
+          },
+          {
+            "code": "76272004",
+            "display": "Syphilis"
+          },
+          {
+            "code": "33839006; 40745002; 402894005",
+            "display": "Genital herpes"
+          },
+          {
+            "code": "15628003",
+            "display": "Gonorrhea"
+          },
+          {
+            "code": "419760006",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "198130006",
+            "display": "Pelvic Inflammatory Disease"
+          },
+          {
+            "code": "266113007",
+            "display": "Genital warts"
+          },
+          {
+            "code": "419266001",
+            "display": "Cervical warts"
+          },
+          {
+            "code": "18504008",
+            "display": "Toxic shock syndrome"
+          },
+          {
+            "code": "68566005",
+            "display": "Urinary tract infection"
+          },
+          {
+            "code": "240532009",
+            "display": "Human papillomavirus (HPV)"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,694 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "268947001",
+  "display" : "External genital exam (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "O/E - external female genitalia",
+  "severity" : "warning",
+  "error" : "The display \"External genital exam (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}268947001 - should be one of [\"O/E - external female genitalia\",\"On examination - external female genitalia (finding)\",\"On examination - external female genitalia\"]"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "19965007",
+        "display" : "Herpes simplex virus"
+      },
+      {
+        "code" : "13687007",
+        "display" : "Herpes simplex virus type 2"
+      },
+      {
+        "code" : "53326005",
+        "display" : "Candida albicans"
+      },
+      {
+        "code" : "266143009",
+        "display" : "Chancroid"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease (PID)"
+      },
+      {
+        "code" : "9482002",
+        "display" : "Human papillomavirus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:d21043c6-cd7a-41fb-bd7e-935fe3a6e950",
+    "timestamp" : "2020-02-24T20:23:21.286Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "19965007",
+      "display" : "Herpes simplex virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13687007",
+      "display" : "Herpes simplex virus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53326005",
+      "display" : "Candida albicans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266143009",
+      "display" : "Chancroid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease (PID)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9482002",
+      "display" : "Human papillomavirus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "35013009",
+        "display" : "Purulent discharge"
+      },
+      {
+        "code" : "276375002",
+        "display" : "Foul-smelling lochia"
+      },
+      {
+        "code" : "289580000",
+        "display" : "Profuse lochia"
+      },
+      {
+        "code" : "43478001",
+        "display" : "Abdominal tenderness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:718a078e-54cb-4ecf-a95f-9f4163f4c8c1",
+    "timestamp" : "2020-02-24T20:23:22.552Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "35013009",
+      "display" : "Purulent discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276375002",
+      "display" : "Foul-smelling lochia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289580000",
+      "display" : "Profuse lochia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43478001",
+      "display" : "Abdominal tenderness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "Normal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:13ef06c7-80cb-4ae6-8aa4-10aa15dd2040",
+    "timestamp" : "2020-02-24T20:23:23.239Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "17621005",
+      "display" : "Normal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "411115002",
+        "display" : "Drug-device combination product"
+      },
+      {
+        "code" : "255559005",
+        "display" : "Intramuscular"
+      },
+      {
+        "code" : "263887005",
+        "display" : "Subcutaneous"
+      },
+      {
+        "code" : "385219001",
+        "display" : "Injectable solution"
+      },
+      {
+        "code" : "63653004",
+        "display" : "Biomedical device"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:6ff18bff-8812-48e6-a1bb-c0c4ba30218f",
+    "timestamp" : "2020-02-24T20:23:23.958Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "411115002",
+      "display" : "Drug-device combination product"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "255559005",
+      "display" : "Intramuscular"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263887005",
+      "display" : "Subcutaneous"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385219001",
+      "display" : "Injectable solution"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "63653004",
+      "display" : "Biomedical device"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "105629000",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "76272004",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "33839006; 40745002; 402894005",
+        "display" : "Genital herpes"
+      },
+      {
+        "code" : "15628003",
+        "display" : "Gonorrhea"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "266113007",
+        "display" : "Genital warts"
+      },
+      {
+        "code" : "419266001",
+        "display" : "Cervical warts"
+      },
+      {
+        "code" : "18504008",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus (HPV)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7ca64096-87d9-40e5-9f89-b2701a442db1",
+    "timestamp" : "2020-02-24T20:23:24.489Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "105629000",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76272004",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33839006; 40745002; 402894005",
+      "display" : "Genital herpes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15628003",
+      "display" : "Gonorrhea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266113007",
+      "display" : "Genital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419266001",
+      "display" : "Cervical warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18504008",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240532009",
+      "display" : "Human papillomavirus (HPV)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "19965007",
+        "display" : "Herpes simplex virus"
+      },
+      {
+        "code" : "13687007",
+        "display" : "Herpes simplex virus type 2"
+      },
+      {
+        "code" : "53326005",
+        "display" : "Candida albicans"
+      },
+      {
+        "code" : "266143009",
+        "display" : "Chancroid"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease (PID)"
+      },
+      {
+        "code" : "9482002",
+        "display" : "Human papillomavirus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:50d28d36-7a3b-4d95-8278-447c314113a1",
+    "timestamp" : "2020-02-24T20:23:36.599Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "19965007",
+      "display" : "Herpes simplex virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13687007",
+      "display" : "Herpes simplex virus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53326005",
+      "display" : "Candida albicans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266143009",
+      "display" : "Chancroid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease (PID)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9482002",
+      "display" : "Human papillomavirus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "411115002",
+        "display" : "Drug-device combination product"
+      },
+      {
+        "code" : "255559005",
+        "display" : "Intramuscular"
+      },
+      {
+        "code" : "263887005",
+        "display" : "Subcutaneous"
+      },
+      {
+        "code" : "385219001",
+        "display" : "Injectable solution"
+      },
+      {
+        "code" : "63653004",
+        "display" : "Biomedical device"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:c5962144-0487-4a78-9b97-ad0cc8100b16",
+    "timestamp" : "2020-02-24T20:23:38.724Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "411115002",
+      "display" : "Drug-device combination product"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "255559005",
+      "display" : "Intramuscular"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263887005",
+      "display" : "Subcutaneous"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385219001",
+      "display" : "Injectable solution"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "63653004",
+      "display" : "Biomedical device"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "268947001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "O/E - external female genitalia",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "105629000",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "76272004",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "33839006; 40745002; 402894005",
+        "display" : "Genital herpes"
+      },
+      {
+        "code" : "15628003",
+        "display" : "Gonorrhea"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "266113007",
+        "display" : "Genital warts"
+      },
+      {
+        "code" : "419266001",
+        "display" : "Cervical warts"
+      },
+      {
+        "code" : "18504008",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "68566005",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus (HPV)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:53543932-e207-496e-ac3a-a4c5345961ad",
+    "timestamp" : "2020-02-24T21:18:50.707Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "105629000",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76272004",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33839006; 40745002; 402894005",
+      "display" : "Genital herpes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15628003",
+      "display" : "Gonorrhea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266113007",
+      "display" : "Genital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419266001",
+      "display" : "Cervical warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18504008",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68566005",
+      "display" : "Urinary tract infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240532009",
+      "display" : "Human papillomavirus (HPV)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

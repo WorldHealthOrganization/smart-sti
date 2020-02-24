@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hiv-positive-counseling-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/hiv-positive-counseling-values",
+  "name": "hiv-positive-counseling-values",
+  "title": "HIV positive counseling values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the HIV positive counseling element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/request-status",
+        "concept": [
+          {
+            "code": "completed",
+            "display": "Done"
+          }
+        ]
+      },
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "Not Done",
+            "display": "Not done"
+          }
+        ]
+      }
+    ]
+  }
+}

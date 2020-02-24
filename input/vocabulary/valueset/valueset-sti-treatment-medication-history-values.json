@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sti-treatment-medication-history-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/sti-treatment-medication-history-values",
+  "name": "sti-treatment-medication-history-values",
+  "title": "STI treatment medication history values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the STI treatment medication history element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other"
+          }
+        ]
+      }
+    ]
+  }
+}

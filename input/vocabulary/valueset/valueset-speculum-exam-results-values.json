@@ -1,0 +1,66 @@
+{
+  "resourceType": "ValueSet",
+  "id": "speculum-exam-results-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/speculum-exam-results-values",
+  "name": "speculum-exam-results-values",
+  "title": "Speculum Exam Results values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Speculum Exam Results element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "N76.5",
+            "display": "Ulcers"
+          },
+          {
+            "code": "S30.824D",
+            "display": "Abnormal vaginal discharge"
+          },
+          {
+            "code": "R10.81",
+            "display": "Abdominal tenderness"
+          },
+          {
+            "code": "N93.9",
+            "display": "Unexplained vaginal bleeding"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "35013009",
+            "display": "Purulent discharge"
+          },
+          {
+            "code": "276375002",
+            "display": "Foul-smelling lochia"
+          },
+          {
+            "code": "289580000",
+            "display": "Profuse lochia"
+          },
+          {
+            "code": "43478001",
+            "display": "Abdominal tenderness"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

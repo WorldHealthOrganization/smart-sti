@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "clinical-exam-type",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/clinical-exam-type",
+  "name": "Clinical exam type",
+  "title": "Clinical exam type",
+  "status": "draft",
+  "experimental": false,
+  "description": "Type of clinical screening performed",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure",
+        "mustSupport": false
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

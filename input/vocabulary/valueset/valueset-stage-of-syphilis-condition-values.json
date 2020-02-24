@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "stage-of-syphilis-condition-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/stage-of-syphilis-condition-values",
+  "name": "stage-of-syphilis-condition-values",
+  "title": "Stage of Syphilis condition values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Stage of Syphilis condition element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "A51.9",
+            "display": "early"
+          },
+          {
+            "code": "A52.9",
+            "display": "late"
+          },
+          {
+            "code": "A53.9",
+            "display": "unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

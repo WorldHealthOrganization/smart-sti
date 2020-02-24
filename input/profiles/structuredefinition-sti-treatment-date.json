@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "sti-treatment-date",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/sti-treatment-date",
+  "name": "STI Treatment date",
+  "title": "STI Treatment date",
+  "status": "draft",
+  "experimental": false,
+  "description": "Approximate date if client reports having had treatment for an STI previously",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

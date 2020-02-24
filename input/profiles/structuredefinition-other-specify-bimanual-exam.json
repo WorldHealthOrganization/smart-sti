@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "other-specify-bimanual-exam",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/other-specify-bimanual-exam",
+  "name": "Other (specify) - Bimanual exam",
+  "title": "Other (specify) - Bimanual exam",
+  "status": "draft",
+  "experimental": false,
+  "description": "Write in other observations not included in the list",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure",
+        "mustSupport": false
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Annotation"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/other-specify-bimanual-exam-values"
+        }
+      }
+    ]
+  }
+}

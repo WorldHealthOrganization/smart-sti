@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sti-treatment-recommendation-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/sti-treatment-recommendation-values",
+  "name": "sti-treatment-recommendation-values",
+  "title": "STI Treatment recommendation values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the STI Treatment recommendation element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "19965007",
+            "display": "Herpes simplex virus"
+          },
+          {
+            "code": "13687007",
+            "display": "Herpes simplex virus type 2"
+          },
+          {
+            "code": "53326005",
+            "display": "Candida albicans"
+          },
+          {
+            "code": "266143009",
+            "display": "Chancroid"
+          },
+          {
+            "code": "198130006",
+            "display": "Pelvic Inflammatory Disease (PID)"
+          },
+          {
+            "code": "9482002",
+            "display": "Human papillomavirus"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "R87.1",
+            "display": "Human papillomavirus"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

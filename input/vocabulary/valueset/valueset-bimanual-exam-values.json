@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bimanual-exam-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/bimanual-exam-values",
+  "name": "bimanual-exam-values",
+  "title": "Bimanual exam values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Bimanual exam element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA6626-1",
+            "display": "Normal"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "17621005",
+            "display": "Normal"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "L90.0",
+            "display": "Lower abdominal tenderness"
+          },
+          {
+            "code": "R10.2",
+            "display": "Adnexa tenderness"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

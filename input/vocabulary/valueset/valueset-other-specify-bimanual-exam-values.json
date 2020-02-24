@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "other-specify-bimanual-exam-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/other-specify-bimanual-exam-values",
+  "name": "other-specify-bimanual-exam-values",
+  "title": "Other (specify) - Bimanual exam values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Other (specify) - Bimanual exam element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA17250-4",
+            "display": "vaginal bleeding"
+          }
+        ]
+      }
+    ]
+  }
+}

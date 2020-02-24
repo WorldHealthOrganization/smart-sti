@@ -1,0 +1,681 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z11.3",
+  "display" : "STI Screenings performed (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z11.3\" not found; The code \"Z11.3\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.3) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "R87.1",
+        "display" : "Human papillomavirus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:87ad8c53-2d91-4f33-be0f-a06e7e0af412",
+    "timestamp" : "2020-02-24T20:23:21.583Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R87.1",
+      "display" : "Human papillomavirus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N76.5",
+        "display" : "Ulcers"
+      },
+      {
+        "code" : "S30.824D",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "R10.81",
+        "display" : "Abdominal tenderness"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Unexplained vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:bf56660d-94a8-47ef-9b67-061efb443d1c",
+    "timestamp" : "2020-02-24T20:23:22.239Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.5",
+      "display" : "Ulcers"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "S30.824D",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.81",
+      "display" : "Abdominal tenderness"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Unexplained vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "L90.0",
+        "display" : "Lower abdominal tenderness"
+      },
+      {
+        "code" : "R10.2",
+        "display" : "Adnexa tenderness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:d6b55775-b20c-42dc-b177-c42cbacf8b07",
+    "timestamp" : "2020-02-24T20:23:23.693Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "L90.0",
+      "display" : "Lower abdominal tenderness"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.2",
+      "display" : "Adnexa tenderness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A74.9",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "B37",
+        "display" : "Yeast infection"
+      },
+      {
+        "code" : "A59.9",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39.0",
+        "display" : "Urinary tract infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7d2d8045-57e4-404a-b9b5-f9dd8ea29160",
+    "timestamp" : "2020-02-24T20:23:24.224Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A74.9",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A53.9",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37",
+      "display" : "Yeast infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A59.9",
+      "display" : "Trichomoniasis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39.0",
+      "display" : "Urinary tract infection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A51.9",
+        "display" : "early"
+      },
+      {
+        "code" : "A52.9",
+        "display" : "late"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:c1bbaf26-26f1-48fd-b7c8-b528a99db427",
+    "timestamp" : "2020-02-24T20:23:24.739Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A51.9",
+      "display" : "early"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A52.9",
+      "display" : "late"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A53.9",
+      "display" : "unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N76.5",
+        "display" : "Ulcers"
+      },
+      {
+        "code" : "S30.824D",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "R10.81",
+        "display" : "Abdominal tenderness"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Unexplained vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:1b5f796e-f730-4ce4-b5bd-a84d3eb914d8",
+    "timestamp" : "2020-02-24T20:23:37.302Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.5",
+      "display" : "Ulcers"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "S30.824D",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.81",
+      "display" : "Abdominal tenderness"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Unexplained vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A74.9",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "B37",
+        "display" : "Yeast infection"
+      },
+      {
+        "code" : "A59.9",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39.0",
+        "display" : "Urinary tract infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:e1abf352-480d-46c8-9dc6-5eaa5a6f4f26",
+    "timestamp" : "2020-02-24T20:23:39.052Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A74.9",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A53.9",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37",
+      "display" : "Yeast infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A59.9",
+      "display" : "Trichomoniasis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39.0",
+      "display" : "Urinary tract infection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A51.9",
+        "display" : "early"
+      },
+      {
+        "code" : "A52.9",
+        "display" : "late"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7bbb02d8-8d9a-464e-84b9-9a9c7bbcbb8c",
+    "timestamp" : "2020-02-24T20:23:39.802Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A51.9",
+      "display" : "early"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A52.9",
+      "display" : "late"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A53.9",
+      "display" : "unknown"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z11.3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z11.3\" not found; The code \"Z11.3\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.3) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A74.9",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "B37",
+        "display" : "Yeast infection"
+      },
+      {
+        "code" : "A59.9",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39; Z87.440",
+        "display" : "Urinary tract infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:1e7b9377-ade3-49fa-927a-35f47ab9938b",
+    "timestamp" : "2020-02-24T21:18:50.441Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A74.9",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A53.9",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37",
+      "display" : "Yeast infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A59.9",
+      "display" : "Trichomoniasis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39; Z87.440",
+      "display" : "Urinary tract infection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A74.9",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "B37",
+        "display" : "Yeast infection"
+      },
+      {
+        "code" : "A59.9",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39; Z87.440",
+        "display" : "Urinary tract infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:63b3696c-67ca-4e62-90f1-c9c6328e137b",
+    "timestamp" : "2020-02-24T21:18:53.785Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A74.9",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A53.9",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37",
+      "display" : "Yeast infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A59.9",
+      "display" : "Trichomoniasis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39; Z87.440",
+      "display" : "Urinary tract infection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
