@@ -1,12 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "other-specify-sti-treatment-medication-history",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-sti-treatment-medication-history",
-  "name": "Other (specify) - STI treatment medication history",
-  "title": "Other (specify) - STI treatment medication history",
+  "id": "date-of-treatment",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/date-of-treatment",
+  "name": "Date of treatment",
+  "title": "Date of treatment",
   "status": "draft",
   "experimental": false,
-  "description": "Write in the medication not included in the list.",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -21,13 +20,13 @@
         "mustSupport": false
       },
       {
-        "id": "MedicationStatement.medication[x]",
-        "path": "MedicationStatement.medication[x]",
+        "id": "MedicationStatement.effective[x]",
+        "path": "MedicationStatement.effective[x]",
         "min": 0,
         "max": "1",
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "dateTime"
           }
         ],
         "mustSupport": true

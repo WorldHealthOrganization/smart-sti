@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "hiv-positive-counseling",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/hiv-positive-counseling",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/hiv-positive-counseling",
   "name": "HIV positive counseling",
   "title": "HIV positive counseling",
   "status": "draft",
@@ -32,7 +32,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/hiv-positive-counseling-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/hiv-positive-counseling-values"
         }
       }
     ]

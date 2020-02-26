@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "speculum-exam-results",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/speculum-exam-results",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/speculum-exam-results",
   "name": "Speculum Exam Results",
   "title": "Speculum Exam Results",
   "status": "draft",
@@ -32,7 +32,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/speculum-exam-results-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/speculum-exam-results-values"
         }
       }
     ]

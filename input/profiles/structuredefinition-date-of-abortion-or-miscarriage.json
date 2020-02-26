@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "date-of-abortion-or-miscarriage",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/date-of-abortion-or-miscarriage",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/date-of-abortion-or-miscarriage",
   "name": "Date of abortion or miscarriage",
   "title": "Date of abortion or miscarriage",
   "status": "draft",

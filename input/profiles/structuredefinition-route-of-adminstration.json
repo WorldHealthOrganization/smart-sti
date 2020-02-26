@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "route-of-adminstration",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/route-of-adminstration",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/route-of-adminstration",
   "name": "Route of adminstration",
   "title": "Route of adminstration",
   "status": "draft",
@@ -28,7 +28,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/route-of-adminstration-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/route-of-adminstration-values"
         }
       }
     ]

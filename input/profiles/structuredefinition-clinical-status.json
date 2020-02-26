@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "clinical-status",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/clinical-status",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/clinical-status",
   "name": "Clinical status",
   "title": "Clinical status",
   "status": "draft",
@@ -33,7 +33,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/clinical-status-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/clinical-status-values"
         }
       }
     ]

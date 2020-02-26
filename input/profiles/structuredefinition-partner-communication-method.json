@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "partner-communication-method",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/partner-communication-method",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/partner-communication-method",
   "name": "Partner Communication method",
   "title": "Partner Communication method",
   "status": "draft",

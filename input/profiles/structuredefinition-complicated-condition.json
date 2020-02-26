@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "other-specify-external-genital",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-external-genital",
-  "name": "Other (specify) - External genital",
-  "title": "Other (specify) - External genital",
+  "id": "complicated-condition",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/complicated-condition",
+  "name": "Complicated condition",
+  "title": "Complicated condition",
   "status": "draft",
   "experimental": false,
-  "description": "Write in other observations not included in the list",
+  "description": "Whether STI is a complicated infection",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -21,15 +21,10 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true
       }
     ]

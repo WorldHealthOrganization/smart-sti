@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "external-genital-exam",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/external-genital-exam",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/external-genital-exam",
   "name": "External genital exam",
   "title": "External genital exam",
   "status": "draft",

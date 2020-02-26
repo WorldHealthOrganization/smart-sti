@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sti-treatment-recommendation",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/sti-treatment-recommendation",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-treatment-recommendation",
   "name": "STI Treatment recommendation",
   "title": "STI Treatment recommendation",
   "status": "draft",
@@ -32,7 +32,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/sti-treatment-recommendation-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-treatment-recommendation-values"
         }
       }
     ]

@@ -1,12 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "other-specify-external-genital",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-external-genital",
-  "name": "Other (specify) - External genital",
-  "title": "Other (specify) - External genital",
+  "id": "recent-abortion-or-miscarriage",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/recent-abortion-or-miscarriage",
+  "name": "Recent abortion or miscarriage",
+  "title": "Recent abortion or miscarriage",
   "status": "draft",
   "experimental": false,
-  "description": "Write in other observations not included in the list",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -23,13 +22,17 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "min": 0,
+        "min": 1,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "17369002",
+              "display": "Recent abortion or miscarriage (SNOMED-CT)"
+            }
+          ]
+        },
         "mustSupport": true
       }
     ]

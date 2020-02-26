@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "test-status",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/test-status",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/test-status",
   "name": "Test status",
   "title": "Test status",
   "status": "draft",

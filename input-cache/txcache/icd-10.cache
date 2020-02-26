@@ -466,6 +466,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p>All codes from system <code>http://hl7.org/fhir/sid/icd-10</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-A51.9\"> </a>A51.9</td><td>early</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-A52.9\"> </a>A52.9</td><td>late</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-A53.9\"> </a>A53.9</td><td>unknown</td></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:7bbb02d8-8d9a-464e-84b9-9a9c7bbcbb8c",
     "timestamp" : "2020-02-24T20:23:39.802Z",
@@ -677,5 +681,68 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5; Z72.51; Z72.52; Z72.53",
+  "display" : "Increased risk of STIs (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "A50-A64.9",
+  "display" : "Current STI Treatment (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"A50-A64.9\" not found; The code \"A50-A64.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#A50-A64.9) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5",
+  "display" : "STI Risk assessment conducted (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "A50-A64.9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"A50-A64.9\" not found; The code \"A50-A64.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#A50-A64.9) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5; Z72.51; Z72.52; Z72.53"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------

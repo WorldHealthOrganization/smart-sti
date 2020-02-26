@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "sti-screenings-performed",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-screenings-performed",
-  "name": "STI Screenings performed",
-  "title": "STI Screenings performed",
+  "id": "sti-risk-assessment-conducted",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-risk-assessment-conducted",
+  "name": "STI Risk assessment conducted",
+  "title": "STI Risk assessment conducted",
   "status": "draft",
   "experimental": false,
-  "description": "Screenings for STIs performed during the visit",
+  "description": "Whether a risk assessment was conducted",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -29,8 +29,8 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "Z11.3",
-              "display": "STI Screenings performed (ICD-10-WHO)"
+              "code": "Z72.5",
+              "display": "STI Risk assessment conducted (ICD-10-WHO)"
             }
           ]
         },

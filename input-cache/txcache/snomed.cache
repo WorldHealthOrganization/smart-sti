@@ -511,6 +511,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-411115002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=411115002\">411115002</a></td><td>Drug-device combination product</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255559005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255559005\">255559005</a></td><td>Intramuscular</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263887005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263887005\">263887005</a></td><td>Subcutaneous</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-385219001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385219001\">385219001</a></td><td>Injectable solution</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-63653004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=63653004\">63653004</a></td><td>Biomedical device</td><td/></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:c5962144-0487-4a78-9b97-ad0cc8100b16",
     "timestamp" : "2020-02-24T20:23:38.724Z",
@@ -689,6 +693,48 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "444451006",
+  "display" : "Exposed to a communicable disease (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Exposure to sexually transmissible disorder (event)",
+  "severity" : "warning",
+  "error" : "The display \"Exposed to a communicable disease (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}444451006 - should be one of [\"Exposure to sexually transmissible disorder (event)\",\"Exposure to sexually transmissible disorder\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "17369002",
+  "display" : "Recent abortion or miscarriage (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Spontaneous abortion",
+  "severity" : "warning",
+  "error" : "The display \"Recent abortion or miscarriage (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}17369002 - should be one of [\"Spontaneous abortion\",Miscarriage,\"Vaginal expulsion of product of conception\",\"Vaginal expulsion of fetus\",\"Miscarriage (disorder)\",\"Vaginal expulsion of foetus\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "444451006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Exposure to sexually transmissible disorder (event)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "17369002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Spontaneous abortion",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------

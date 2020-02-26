@@ -1,12 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "other-specify-external-genital",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-external-genital",
-  "name": "Other (specify) - External genital",
-  "title": "Other (specify) - External genital",
+  "id": "current-sti-treatment",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/current-sti-treatment",
+  "name": "Current STI Treatment",
+  "title": "Current STI Treatment",
   "status": "draft",
   "experimental": false,
-  "description": "Write in other observations not included in the list",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -23,13 +22,17 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "min": 0,
+        "min": 1,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "A50-A64.9",
+              "display": "Current STI Treatment (ICD-10-WHO)"
+            }
+          ]
+        },
         "mustSupport": true
       }
     ]

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sti-treatment-medication-history",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/sti-treatment-medication-history",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-treatment-medication-history",
   "name": "STI treatment medication history",
   "title": "STI treatment medication history",
   "status": "draft",
@@ -33,7 +33,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/sti-treatment-medication-history-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-treatment-medication-history-values"
         }
       }
     ]

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "partner-hiv-status",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/partner-hiv-status",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/partner-hiv-status",
   "name": "Partner HIV status",
   "title": "Partner HIV status",
   "status": "draft",

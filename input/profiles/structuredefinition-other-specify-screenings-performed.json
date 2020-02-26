@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "other-specify-screenings-performed",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/other-specify-screenings-performed",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-screenings-performed",
   "name": "Other (specify) - Screenings performed",
   "title": "Other (specify) - Screenings performed",
   "status": "draft",

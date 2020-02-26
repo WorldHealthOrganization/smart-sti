@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "other-specify-bimanual-exam",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/other-specify-bimanual-exam",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-bimanual-exam",
   "name": "Other (specify) - Bimanual exam",
   "title": "Other (specify) - Bimanual exam",
   "status": "draft",
@@ -33,7 +33,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/other-specify-bimanual-exam-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/other-specify-bimanual-exam-values"
         }
       }
     ]

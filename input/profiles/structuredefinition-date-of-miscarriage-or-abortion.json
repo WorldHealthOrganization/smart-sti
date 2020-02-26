@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "other-specify-external-genital",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-external-genital",
-  "name": "Other (specify) - External genital",
-  "title": "Other (specify) - External genital",
+  "id": "date-of-miscarriage-or-abortion",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/date-of-miscarriage-or-abortion",
+  "name": "Date of miscarriage or abortion",
+  "title": "Date of miscarriage or abortion",
   "status": "draft",
   "experimental": false,
-  "description": "Write in other observations not included in the list",
+  "description": "If the woman had an abortion, when the abortion took place.",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -21,13 +21,13 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
         "min": 0,
         "max": "1",
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "dateTime"
           }
         ],
         "mustSupport": true

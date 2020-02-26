@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "hiv-diagnosis-date",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/hiv-diagnosis-date",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/hiv-diagnosis-date",
   "name": "HIV diagnosis date",
   "title": "HIV diagnosis date",
   "status": "draft",

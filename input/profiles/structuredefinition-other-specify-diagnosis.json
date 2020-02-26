@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "other-specify-diagnosis",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/other-specify-diagnosis",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/other-specify-diagnosis",
   "name": "Other (specify) - Diagnosis",
   "title": "Other (specify) - Diagnosis",
   "status": "draft",
