@@ -130,6 +130,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on LOINC version 2.66</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA17250-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA17250-4.html\">LA17250-4</a></td><td>vaginal bleeding</td></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:4185012d-8ba1-4a92-a857-c0b46907568d",
     "timestamp" : "2020-02-24T20:23:40.505Z",
@@ -148,6 +152,27 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "86662-4",
+  "display" : "Cervical Cancer Screen Result (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Pap smear tests - FPAR 2.0 set",
+  "severity" : "warning",
+  "error" : "The display \"Cervical Cancer Screen Result (LOINC)\" is not a valid display for the code {http://loinc.org}86662-4 - should be one of [\"Pap smear tests - FPAR 2.0 set\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "86662-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Pap smear tests - FPAR 2.0 set",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------

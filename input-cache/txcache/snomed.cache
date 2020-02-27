@@ -738,3 +738,24 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "186946009",
+  "display" : "LGV follow-up (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Nicholas Favre disease",
+  "severity" : "warning",
+  "error" : "The display \"LGV follow-up (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}186946009 - should be one of [\"Nicholas Favre disease\",\"LGV - Lymphogranuloma venereum\",\"Lymphogranuloma inguinale\",\"Lymphogranuloma venereum\",\"Lymphogranuloma venereum (disorder)\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "186946009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Nicholas Favre disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
