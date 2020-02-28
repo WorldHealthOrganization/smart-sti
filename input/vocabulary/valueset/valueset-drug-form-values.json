@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "drug-form-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-form-values",
+  "name": "drug-form-values",
+  "title": "Drug form values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Drug form element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "385100002",
+            "display": "gel"
+          },
+          {
+            "code": "421195004",
+            "display": "vaginal suppository"
+          },
+          {
+            "code": "255559005",
+            "display": "intramuscular"
+          },
+          {
+            "code": "385178005",
+            "display": "vaginal tablet"
+          },
+          {
+            "code": "421427005",
+            "display": "eye ointment"
+          },
+          {
+            "code": "264049007",
+            "display": "intravaginally"
+          },
+          {
+            "code": "385178005",
+            "display": "vaginal tablet"
+          },
+          {
+            "code": "385165005",
+            "display": "cream"
+          },
+          {
+            "code": "385165005",
+            "display": "Vaginal cream"
+          },
+          {
+            "code": "739006009",
+            "display": "solution"
+          }
+        ]
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept": [
+          {
+            "code": "215648",
+            "display": "compound tincture of benzoin"
+          }
+        ]
+      }
+    ]
+  }
+}

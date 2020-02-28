@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sti-condition-type-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-condition-type-values",
+  "name": "sti-condition-type-values",
+  "title": "STI Condition type values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the STI Condition type element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "A55",
+            "display": "Lymphogranuloma venereum (LGV)"
+          },
+          {
+            "code": "H10.9",
+            "display": "conjunctivitis"
+          },
+          {
+            "code": "A54.5",
+            "display": "oropharyngeal infection"
+          },
+          {
+            "code": "A54.31",
+            "display": "Conjunctivitis"
+          },
+          {
+            "code": "B00",
+            "display": "Herpes simplex virus type 1 (HSV-1)"
+          },
+          {
+            "code": "A60.00; A60.09",
+            "display": "Herpes simplex virus type 2 (HSV-2)"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "15302007",
+            "display": "Herpes simplex virus type 1 (HSV-1)"
+          }
+        ]
+      }
+    ]
+  }
+}

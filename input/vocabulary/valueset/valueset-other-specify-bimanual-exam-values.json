@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "other-specify-bimanual-exam-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/other-specify-bimanual-exam-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/other-specify-bimanual-exam-values",
   "name": "other-specify-bimanual-exam-values",
   "title": "Other (specify) - Bimanual exam values",
   "status": "draft",

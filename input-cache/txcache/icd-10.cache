@@ -799,3 +799,400 @@ v: {
   "error" : "Code \"r57.9\" not found; The code \"r57.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#r57.9) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "R10.2; R10.819; N94.89; N85.8; R10",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "N76.5;S30.824D",
+        "display" : "Vesicles"
+      },
+      {
+        "code" : "Q53.9",
+        "display" : "Testis rotated or elevated"
+      },
+      {
+        "code" : "R36.9",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "R22",
+        "display" : "Groin lumps"
+      },
+      {
+        "code" : "R19.09; R22.41",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "NEED VALUE SET",
+        "display" : "Anogenital sores"
+      },
+      {
+        "code" : "A63.0",
+        "display" : "Anogenital warts"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:46c8c352-cd6f-472a-ac41-5f9daff47b0e",
+    "timestamp" : "2020-02-28T04:11:00.740Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.2; R10.819; N94.89; N85.8; R10",
+      "display" : "Uterine tenderness"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.5;S30.824D",
+      "display" : "Vesicles"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Q53.9",
+      "display" : "Testis rotated or elevated"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R36.9",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R22",
+      "display" : "Groin lumps"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R19.09; R22.41",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "NEED VALUE SET",
+      "display" : "Anogenital sores"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A63.0",
+      "display" : "Anogenital warts"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "z01.419",
+        "display" : "Normal"
+      },
+      {
+        "code" : "N76.5",
+        "display" : "Ulcers"
+      },
+      {
+        "code" : "S30.824D",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "R10.81",
+        "display" : "Abdominal tenderness"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Unexplained vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:34a730ee-75bb-4aa4-9d17-527f751febcf",
+    "timestamp" : "2020-02-28T04:11:01.755Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "z01.419",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.5",
+      "display" : "Ulcers"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "S30.824D",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.81",
+      "display" : "Abdominal tenderness"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Unexplained vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A55",
+        "display" : "Lymphogranuloma venereum (LGV)"
+      },
+      {
+        "code" : "H10.9",
+        "display" : "conjunctivitis"
+      },
+      {
+        "code" : "A54.5",
+        "display" : "oropharyngeal infection"
+      },
+      {
+        "code" : "A54.31",
+        "display" : "Conjunctivitis"
+      },
+      {
+        "code" : "B00",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      },
+      {
+        "code" : "A60.00; A60.09",
+        "display" : "Herpes simplex virus type 2 (HSV-2)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7452857c-3d11-43e7-8db0-c3979d7c87f2",
+    "timestamp" : "2020-02-28T04:11:04.065Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A55",
+      "display" : "Lymphogranuloma venereum (LGV)"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "H10.9",
+      "display" : "conjunctivitis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A54.5",
+      "display" : "oropharyngeal infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A54.31",
+      "display" : "Conjunctivitis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B00",
+      "display" : "Herpes simplex virus type 1 (HSV-1)"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A60.00; A60.09",
+      "display" : "Herpes simplex virus type 2 (HSV-2)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "z01.419",
+        "display" : "Normal"
+      },
+      {
+        "code" : "N76.5",
+        "display" : "Ulcers"
+      },
+      {
+        "code" : "S30.824D",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "R10.81",
+        "display" : "Abdominal tenderness"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Unexplained vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:60e15fd8-7952-4f4f-badb-a86660225d1d",
+    "timestamp" : "2020-02-28T04:11:12.833Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "z01.419",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.5",
+      "display" : "Ulcers"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "S30.824D",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.81",
+      "display" : "Abdominal tenderness"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Unexplained vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A55",
+        "display" : "Lymphogranuloma venereum (LGV)"
+      },
+      {
+        "code" : "H10.9",
+        "display" : "conjunctivitis"
+      },
+      {
+        "code" : "A54.5",
+        "display" : "oropharyngeal infection"
+      },
+      {
+        "code" : "A54.31",
+        "display" : "Conjunctivitis"
+      },
+      {
+        "code" : "B00",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      },
+      {
+        "code" : "A60.00; A60.09",
+        "display" : "Herpes simplex virus type 2 (HSV-2)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:0cade328-ae40-4c5d-ae6d-7ef5ffeb4512",
+    "timestamp" : "2020-02-28T04:11:14.849Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A55",
+      "display" : "Lymphogranuloma venereum (LGV)"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "H10.9",
+      "display" : "conjunctivitis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A54.5",
+      "display" : "oropharyngeal infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A54.31",
+      "display" : "Conjunctivitis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B00",
+      "display" : "Herpes simplex virus type 1 (HSV-1)"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A60.00; A60.09",
+      "display" : "Herpes simplex virus type 2 (HSV-2)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

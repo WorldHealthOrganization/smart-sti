@@ -1,0 +1,166 @@
+{
+  "resourceType": "ValueSet",
+  "id": "reported-symptoms-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/reported-symptoms-values",
+  "name": "reported-symptoms-values",
+  "title": "Reported symptoms values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Reported symptoms element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "16186004",
+            "display": "Vulval or vaginal Irritation"
+          },
+          {
+            "code": "249545003",
+            "display": "Abdominal guarding"
+          },
+          {
+            "code": "35611005",
+            "display": "Rebound tenderness"
+          },
+          {
+            "code": "271860004",
+            "display": "Abdominal mass"
+          },
+          {
+            "code": "289815006",
+            "display": "Cervical motion tenderness"
+          },
+          {
+            "code": "297123002",
+            "display": "Adnexal tenderness"
+          },
+          {
+            "code": "289667007",
+            "display": "Uterine tenderness"
+          },
+          {
+            "code": "366296005",
+            "display": "Foul-smelling vaginal discharge"
+          },
+          {
+            "code": "36311007",
+            "display": "Vulval oedema"
+          },
+          {
+            "code": "289485008",
+            "display": "Vulval erythema (redness)"
+          },
+          {
+            "code": "26284000",
+            "display": "Mouth sores"
+          },
+          {
+            "code": "26284000",
+            "display": "Mouth ulcers"
+          },
+          {
+            "code": "49650001",
+            "display": "Painful urination"
+          },
+          {
+            "code": "9957009",
+            "display": "Urethral discharge"
+          },
+          {
+            "code": "281398003",
+            "display": "Groin lumps"
+          },
+          {
+            "code": "274743004",
+            "display": "Groin swelling"
+          },
+          {
+            "code": "283130009",
+            "display": "Genital blisters"
+          },
+          {
+            "code": "38864007",
+            "display": "Anogenital sores"
+          },
+          {
+            "code": "95595006",
+            "display": "Genital ulcer"
+          },
+          {
+            "code": "240542006",
+            "display": "Anogenital warts"
+          },
+          {
+            "code": "95596009",
+            "display": "Genital pruritus (itching)"
+          },
+          {
+            "code": "289553007",
+            "display": "Curd-like vaginal discharge"
+          },
+          {
+            "code": "80182007",
+            "display": "Irregular period without heavy bleeding"
+          },
+          {
+            "code": "315224006",
+            "display": "Heavy or prolonged bleeding"
+          },
+          {
+            "code": "14302001",
+            "display": "Amenorrhea"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "R10.2; R10.819; N94.89; N85.8; R10",
+            "display": "Uterine tenderness"
+          },
+          {
+            "code": "N76.5;S30.824D",
+            "display": "Vesicles"
+          },
+          {
+            "code": "Q53.9",
+            "display": "Testis rotated or elevated"
+          },
+          {
+            "code": "R36.9",
+            "display": "Urethral discharge"
+          },
+          {
+            "code": "R22",
+            "display": "Groin lumps"
+          },
+          {
+            "code": "R19.09; R22.41",
+            "display": "Groin swelling"
+          },
+          {
+            "code": "NEED VALUE SET",
+            "display": "Anogenital sores"
+          },
+          {
+            "code": "A63.0",
+            "display": "Anogenital warts"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

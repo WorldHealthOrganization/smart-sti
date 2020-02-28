@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "stage-of-syphilis-condition-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/stage-of-syphilis-condition-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/stage-of-syphilis-condition-values",
   "name": "stage-of-syphilis-condition-values",
   "title": "Stage of Syphilis condition values",
   "status": "draft",

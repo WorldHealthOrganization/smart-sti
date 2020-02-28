@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "speculum-exam-results-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/speculum-exam-results-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/speculum-exam-results-values",
   "name": "speculum-exam-results-values",
   "title": "Speculum Exam Results values",
   "status": "draft",
@@ -13,6 +13,10 @@
       {
         "system": "http://hl7.org/fhir/sid/icd-10",
         "concept": [
+          {
+            "code": "z01.419",
+            "display": "Normal"
+          },
           {
             "code": "N76.5",
             "display": "Ulcers"
@@ -45,6 +49,10 @@
           {
             "code": "289580000",
             "display": "Profuse lochia"
+          },
+          {
+            "code": "77012006",
+            "display": "Amniotic fluid"
           },
           {
             "code": "43478001",

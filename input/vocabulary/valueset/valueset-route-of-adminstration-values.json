@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "route-of-adminstration-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/route-of-adminstration-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/route-of-adminstration-values",
   "name": "route-of-adminstration-values",
   "title": "Route of adminstration values",
   "status": "draft",

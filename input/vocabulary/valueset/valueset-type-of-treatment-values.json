@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "type-of-treatment-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/type-of-treatment-values",
+  "name": "type-of-treatment-values",
+  "title": "Type of treatment values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Type of treatment element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "278499009",
+            "display": "episodic therapy"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "bimanual-exam-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/bimanual-exam-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/bimanual-exam-values",
   "name": "bimanual-exam-values",
   "title": "Bimanual exam values",
   "status": "draft",
@@ -25,6 +25,10 @@
           {
             "code": "17621005",
             "display": "Normal"
+          },
+          {
+            "code": "289667007",
+            "display": "Uterine tenderness"
           }
         ]
       },
