@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "counseling-recommendations-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/counseling-recommendations-values",
+  "name": "counseling-recommendations-values",
+  "title": "Counseling recommendations values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Counseling recommendations element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "182919001",
+            "display": "re-treat"
+          },
+          {
+            "code": "16311004",
+            "display": "reinforce condom use"
+          },
+          {
+            "code": "225160006",
+            "display": "reinforce sexual abstinence"
+          }
+        ]
+      }
+    ]
+  }
+}

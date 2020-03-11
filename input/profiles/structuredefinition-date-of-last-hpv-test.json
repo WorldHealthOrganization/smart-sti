@@ -21,15 +21,19 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.effective[x]",
-        "path": "Observation.effective[x]",
-        "min": 0,
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 1,
         "max": "1",
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "https://loinc.org/82457-3/",
+              "display": "Date of Last HPV Test (LOINC)"
+            }
+          ]
+        },
         "mustSupport": true
       }
     ]

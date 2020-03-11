@@ -16,6 +16,14 @@
           {
             "code": "278499009",
             "display": "episodic therapy"
+          },
+          {
+            "code": "244840000",
+            "display": "suppressive therapy"
+          },
+          {
+            "code": "413568008",
+            "display": "application"
           }
         ]
       }

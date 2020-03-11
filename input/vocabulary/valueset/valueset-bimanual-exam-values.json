@@ -27,8 +27,20 @@
             "display": "Normal"
           },
           {
+            "code": "289815006",
+            "display": "Cervical motion tenderness"
+          },
+          {
             "code": "289667007",
             "display": "Uterine tenderness"
+          },
+          {
+            "code": "289797008",
+            "display": "Abnormal growth"
+          },
+          {
+            "code": "289775006",
+            "display": "Hardness to the touch"
           }
         ]
       },

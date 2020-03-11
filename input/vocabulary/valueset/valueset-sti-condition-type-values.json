@@ -11,6 +11,23 @@
   "compose": {
     "include": [
       {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "312155003",
+            "display": "genital"
+          },
+          {
+            "code": "426867001",
+            "display": "anorectal"
+          },
+          {
+            "code": "15302007",
+            "display": "Herpes simplex virus type 1 (HSV-1)"
+          }
+        ]
+      },
+      {
         "system": "http://hl7.org/fhir/sid/icd-10",
         "concept": [
           {
@@ -36,15 +53,6 @@
           {
             "code": "A60.00; A60.09",
             "display": "Herpes simplex virus type 2 (HSV-2)"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "concept": [
-          {
-            "code": "15302007",
-            "display": "Herpes simplex virus type 1 (HSV-1)"
           }
         ]
       }

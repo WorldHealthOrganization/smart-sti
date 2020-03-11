@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "partner-hiv-status-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/partner-hiv-status-values",
+  "name": "partner-hiv-status-values",
+  "title": "Partner HIV status values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Partner HIV status element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "261665006",
+            "display": "Don't know"
+          },
+          {
+            "code": "10828004",
+            "display": "Positive"
+          },
+          {
+            "code": "260385009",
+            "display": "Negative"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1736,3 +1736,2721 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "289567003",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "16186004",
+        "display" : "Vulval or vaginal Irritation"
+      },
+      {
+        "code" : "249545003",
+        "display" : "Abdominal guarding"
+      },
+      {
+        "code" : "35611005",
+        "display" : "Rebound tenderness"
+      },
+      {
+        "code" : "271860004",
+        "display" : "Abdominal mass"
+      },
+      {
+        "code" : "289815006",
+        "display" : "Cervical motion tenderness"
+      },
+      {
+        "code" : "297123002",
+        "display" : "Adnexal tenderness"
+      },
+      {
+        "code" : "289667007",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "366296005",
+        "display" : "Foul-smelling vaginal discharge"
+      },
+      {
+        "code" : "36311007",
+        "display" : "Vulval oedema"
+      },
+      {
+        "code" : "289485008",
+        "display" : "Vulval erythema (redness)"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth sores"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth ulcers"
+      },
+      {
+        "code" : "49650001",
+        "display" : "Painful urination"
+      },
+      {
+        "code" : "9957009",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "281398003",
+        "display" : "Groin lumps"
+      },
+      {
+        "code" : "274743004",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "283130009",
+        "display" : "Genital blisters"
+      },
+      {
+        "code" : "38864007",
+        "display" : "Anogenital sores"
+      },
+      {
+        "code" : "95595006",
+        "display" : "Genital ulcer"
+      },
+      {
+        "code" : "240542006",
+        "display" : "Anogenital warts"
+      },
+      {
+        "code" : "95596009",
+        "display" : "Genital pruritus (itching)"
+      },
+      {
+        "code" : "289553007",
+        "display" : "Curd-like vaginal discharge"
+      },
+      {
+        "code" : "80182007",
+        "display" : "Irregular period without heavy bleeding"
+      },
+      {
+        "code" : "315224006",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhea"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:34079a60-54fa-41c3-8d00-22230b5305ce",
+    "timestamp" : "2020-03-03T16:15:55.157Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "289567003",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16186004",
+      "display" : "Vulval or vaginal Irritation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "249545003",
+      "display" : "Abdominal guarding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35611005",
+      "display" : "Rebound tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271860004",
+      "display" : "Abdominal mass"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289815006",
+      "display" : "Cervical motion tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "297123002",
+      "display" : "Adnexal tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289667007",
+      "display" : "Uterine tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366296005",
+      "display" : "Foul-smelling vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36311007",
+      "display" : "Vulval oedema"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289485008",
+      "display" : "Vulval erythema (redness)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth ulcers"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49650001",
+      "display" : "Painful urination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9957009",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281398003",
+      "display" : "Groin lumps"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274743004",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "283130009",
+      "display" : "Genital blisters"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38864007",
+      "display" : "Anogenital sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95595006",
+      "display" : "Genital ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240542006",
+      "display" : "Anogenital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95596009",
+      "display" : "Genital pruritus (itching)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289553007",
+      "display" : "Curd-like vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80182007",
+      "display" : "Irregular period without heavy bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315224006",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14302001",
+      "display" : "Amenorrhea"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "289567003",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "35013009",
+        "display" : "Purulent discharge"
+      },
+      {
+        "code" : "363354003",
+        "display" : "Cervical tumors"
+      },
+      {
+        "code" : "276375002",
+        "display" : "Foul-smelling lochia"
+      },
+      {
+        "code" : "289580000",
+        "display" : "Profuse lochia"
+      },
+      {
+        "code" : "77012006",
+        "display" : "Amniotic fluid"
+      },
+      {
+        "code" : "43478001",
+        "display" : "Abdominal tenderness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:860190e4-b975-4522-adb5-0e68d67567d2",
+    "timestamp" : "2020-03-03T16:15:55.454Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "289567003",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35013009",
+      "display" : "Purulent discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363354003",
+      "display" : "Cervical tumors"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276375002",
+      "display" : "Foul-smelling lochia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289580000",
+      "display" : "Profuse lochia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "77012006",
+      "display" : "Amniotic fluid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43478001",
+      "display" : "Abdominal tenderness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "289567003",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "16186004",
+        "display" : "Vulval or vaginal Irritation"
+      },
+      {
+        "code" : "249545003",
+        "display" : "Abdominal guarding"
+      },
+      {
+        "code" : "35611005",
+        "display" : "Rebound tenderness"
+      },
+      {
+        "code" : "271860004",
+        "display" : "Abdominal mass"
+      },
+      {
+        "code" : "289815006",
+        "display" : "Cervical motion tenderness"
+      },
+      {
+        "code" : "297123002",
+        "display" : "Adnexal tenderness"
+      },
+      {
+        "code" : "289667007",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "366296005",
+        "display" : "Foul-smelling vaginal discharge"
+      },
+      {
+        "code" : "36311007",
+        "display" : "Vulval oedema"
+      },
+      {
+        "code" : "289485008",
+        "display" : "Vulval erythema (redness)"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth sores"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth ulcers"
+      },
+      {
+        "code" : "49650001",
+        "display" : "Painful urination"
+      },
+      {
+        "code" : "9957009",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "281398003",
+        "display" : "Groin lumps"
+      },
+      {
+        "code" : "274743004",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "283130009",
+        "display" : "Genital blisters"
+      },
+      {
+        "code" : "38864007",
+        "display" : "Anogenital sores"
+      },
+      {
+        "code" : "95595006",
+        "display" : "Genital ulcer"
+      },
+      {
+        "code" : "240542006",
+        "display" : "Anogenital warts"
+      },
+      {
+        "code" : "95596009",
+        "display" : "Genital pruritus (itching)"
+      },
+      {
+        "code" : "289553007",
+        "display" : "Curd-like vaginal discharge"
+      },
+      {
+        "code" : "80182007",
+        "display" : "Irregular period without heavy bleeding"
+      },
+      {
+        "code" : "315224006",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhea"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:27d1cae0-fb5f-413a-a90d-f140db22d240",
+    "timestamp" : "2020-03-03T16:16:02.720Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "289567003",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16186004",
+      "display" : "Vulval or vaginal Irritation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "249545003",
+      "display" : "Abdominal guarding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35611005",
+      "display" : "Rebound tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271860004",
+      "display" : "Abdominal mass"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289815006",
+      "display" : "Cervical motion tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "297123002",
+      "display" : "Adnexal tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289667007",
+      "display" : "Uterine tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366296005",
+      "display" : "Foul-smelling vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36311007",
+      "display" : "Vulval oedema"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289485008",
+      "display" : "Vulval erythema (redness)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth ulcers"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49650001",
+      "display" : "Painful urination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9957009",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281398003",
+      "display" : "Groin lumps"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274743004",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "283130009",
+      "display" : "Genital blisters"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38864007",
+      "display" : "Anogenital sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95595006",
+      "display" : "Genital ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240542006",
+      "display" : "Anogenital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95596009",
+      "display" : "Genital pruritus (itching)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289553007",
+      "display" : "Curd-like vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80182007",
+      "display" : "Irregular period without heavy bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315224006",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14302001",
+      "display" : "Amenorrhea"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26039008",
+  "display" : "Complicated condition (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Neurosyphilis",
+  "severity" : "warning",
+  "error" : "The display \"Complicated condition (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}26039008 - should be one of [Neurosyphilis,\"Syphilis of central nervous system\",\"Neurosyphilis (disorder)\"]"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "289567003",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "16186004",
+        "display" : "Vulval or vaginal Irritation"
+      },
+      {
+        "code" : "249545003",
+        "display" : "Abdominal guarding"
+      },
+      {
+        "code" : "35611005",
+        "display" : "Rebound tenderness"
+      },
+      {
+        "code" : "271860004",
+        "display" : "Abdominal mass"
+      },
+      {
+        "code" : "289815006",
+        "display" : "Cervical motion tenderness"
+      },
+      {
+        "code" : "54586004",
+        "display" : "Pain in lower abdomen during pelvic examination"
+      },
+      {
+        "code" : "25845007",
+        "display" : "Ulcer(s) improving"
+      },
+      {
+        "code" : "125313005",
+        "display" : "Ulcer(s) healed"
+      },
+      {
+        "code" : "297123002",
+        "display" : "Adnexal tenderness"
+      },
+      {
+        "code" : "289667007",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "366296005",
+        "display" : "Foul-smelling vaginal discharge"
+      },
+      {
+        "code" : "36311007",
+        "display" : "Vulval oedema"
+      },
+      {
+        "code" : "289485008",
+        "display" : "Vulval erythema (redness)"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth sores"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth ulcers"
+      },
+      {
+        "code" : "49650001",
+        "display" : "Painful urination"
+      },
+      {
+        "code" : "9957009",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "281398003",
+        "display" : "Groin lumps"
+      },
+      {
+        "code" : "274743004",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "283130009",
+        "display" : "Genital blisters"
+      },
+      {
+        "code" : "38864007",
+        "display" : "Anogenital sores"
+      },
+      {
+        "code" : "95595006",
+        "display" : "Genital ulcer"
+      },
+      {
+        "code" : "240542006",
+        "display" : "Anogenital warts"
+      },
+      {
+        "code" : "95596009",
+        "display" : "Genital pruritus (itching)"
+      },
+      {
+        "code" : "289553007",
+        "display" : "Curd-like vaginal discharge"
+      },
+      {
+        "code" : "80182007",
+        "display" : "Irregular period without heavy bleeding"
+      },
+      {
+        "code" : "315224006",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhea"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:24b0b968-3526-4ca9-939f-83b542d46265",
+    "timestamp" : "2020-03-10T20:56:12.209Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "289567003",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16186004",
+      "display" : "Vulval or vaginal Irritation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "249545003",
+      "display" : "Abdominal guarding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35611005",
+      "display" : "Rebound tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271860004",
+      "display" : "Abdominal mass"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289815006",
+      "display" : "Cervical motion tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "54586004",
+      "display" : "Pain in lower abdomen during pelvic examination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25845007",
+      "display" : "Ulcer(s) improving"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "125313005",
+      "display" : "Ulcer(s) healed"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "297123002",
+      "display" : "Adnexal tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289667007",
+      "display" : "Uterine tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366296005",
+      "display" : "Foul-smelling vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36311007",
+      "display" : "Vulval oedema"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289485008",
+      "display" : "Vulval erythema (redness)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth ulcers"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49650001",
+      "display" : "Painful urination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9957009",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281398003",
+      "display" : "Groin lumps"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274743004",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "283130009",
+      "display" : "Genital blisters"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38864007",
+      "display" : "Anogenital sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95595006",
+      "display" : "Genital ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240542006",
+      "display" : "Anogenital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95596009",
+      "display" : "Genital pruritus (itching)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289553007",
+      "display" : "Curd-like vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80182007",
+      "display" : "Irregular period without heavy bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315224006",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14302001",
+      "display" : "Amenorrhea"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "16241000",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "76272004",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "19965007",
+        "display" : "Herpes simplex virus"
+      },
+      {
+        "code" : "13687007",
+        "display" : "Herpes simplex virus type 2"
+      },
+      {
+        "code" : "15628003",
+        "display" : "Gonorrhea"
+      },
+      {
+        "code" : "68704007",
+        "display" : "Gonococcal"
+      },
+      {
+        "code" : "53326005",
+        "display" : "Candida albicans"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "56335008",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "447353001",
+        "display" : "Cervical infection"
+      },
+      {
+        "code" : "423451008",
+        "display" : "Anaerobic infection"
+      },
+      {
+        "code" : "266143009",
+        "display" : "Chancroid"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease (PID)"
+      },
+      {
+        "code" : "9482002",
+        "display" : "Human papillomavirus"
+      },
+      {
+        "code" : "2858002",
+        "display" : "Postpartum infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:b96fdada-245c-4207-83b0-3af7ad750227",
+    "timestamp" : "2020-03-10T20:56:12.475Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "16241000",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76272004",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19965007",
+      "display" : "Herpes simplex virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13687007",
+      "display" : "Herpes simplex virus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15628003",
+      "display" : "Gonorrhea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68704007",
+      "display" : "Gonococcal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53326005",
+      "display" : "Candida albicans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56335008",
+      "display" : "Trichomoniasis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "447353001",
+      "display" : "Cervical infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "423451008",
+      "display" : "Anaerobic infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266143009",
+      "display" : "Chancroid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease (PID)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9482002",
+      "display" : "Human papillomavirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2858002",
+      "display" : "Postpartum infection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "278499009",
+        "display" : "episodic therapy"
+      },
+      {
+        "code" : "244840000",
+        "display" : "suppressive therapy"
+      },
+      {
+        "code" : "413568008",
+        "display" : "application"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4adfd5f6-7b18-4b85-96e6-537a4ca90202",
+    "timestamp" : "2020-03-10T20:56:12.756Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "278499009",
+      "display" : "episodic therapy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "244840000",
+      "display" : "suppressive therapy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413568008",
+      "display" : "application"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "289519008",
+        "display" : "Blisters"
+      },
+      {
+        "code" : "289567003",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "126486000",
+        "display" : "Redness of vaginal walls"
+      },
+      {
+        "code" : "307492008",
+        "display" : "Discharge appears mucopurulent with discoloration"
+      },
+      {
+        "code" : "35013009",
+        "display" : "Purulent discharge"
+      },
+      {
+        "code" : "363354003",
+        "display" : "Cervical tumors"
+      },
+      {
+        "code" : "276375002",
+        "display" : "Foul-smelling lochia"
+      },
+      {
+        "code" : "289580000",
+        "display" : "Profuse lochia"
+      },
+      {
+        "code" : "77012006",
+        "display" : "Amniotic fluid"
+      },
+      {
+        "code" : "43478001",
+        "display" : "Abdominal tenderness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:35702566-5e49-470a-bcaa-3de61798aef0",
+    "timestamp" : "2020-03-10T20:56:13.131Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "289519008",
+      "display" : "Blisters"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289567003",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "126486000",
+      "display" : "Redness of vaginal walls"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307492008",
+      "display" : "Discharge appears mucopurulent with discoloration"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35013009",
+      "display" : "Purulent discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "363354003",
+      "display" : "Cervical tumors"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276375002",
+      "display" : "Foul-smelling lochia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289580000",
+      "display" : "Profuse lochia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "77012006",
+      "display" : "Amniotic fluid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43478001",
+      "display" : "Abdominal tenderness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "Normal"
+      },
+      {
+        "code" : "289815006",
+        "display" : "Cervical motion tenderness"
+      },
+      {
+        "code" : "289667007",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "289797008",
+        "display" : "Abnormal growth"
+      },
+      {
+        "code" : "289775006",
+        "display" : "Hardness to the touch"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:82d6a391-7318-467c-9650-9583db6793a1",
+    "timestamp" : "2020-03-10T20:56:13.412Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "17621005",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289815006",
+      "display" : "Cervical motion tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289667007",
+      "display" : "Uterine tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289797008",
+      "display" : "Abnormal growth"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289775006",
+      "display" : "Hardness to the touch"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385100002",
+        "display" : "gel"
+      },
+      {
+        "code" : "26643006",
+        "display" : "oral"
+      },
+      {
+        "code" : "421195004",
+        "display" : "vaginal suppository"
+      },
+      {
+        "code" : "255559005",
+        "display" : "intramuscular"
+      },
+      {
+        "code" : "385178005",
+        "display" : "vaginal tablet"
+      },
+      {
+        "code" : "421427005",
+        "display" : "eye ointment"
+      },
+      {
+        "code" : "264049007",
+        "display" : "intravaginally"
+      },
+      {
+        "code" : "385178005",
+        "display" : "vaginal tablet"
+      },
+      {
+        "code" : "385165005",
+        "display" : "cream"
+      },
+      {
+        "code" : "385165005",
+        "display" : "Vaginal cream"
+      },
+      {
+        "code" : "739006009",
+        "display" : "solution"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:93411594-f84c-4380-84fa-b39e8505102e",
+    "timestamp" : "2020-03-10T20:56:13.662Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385100002",
+      "display" : "gel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26643006",
+      "display" : "oral"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421195004",
+      "display" : "vaginal suppository"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "255559005",
+      "display" : "intramuscular"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385178005",
+      "display" : "vaginal tablet"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421427005",
+      "display" : "eye ointment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264049007",
+      "display" : "intravaginally"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385165005",
+      "display" : "cream"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385165005",
+      "display" : "Vaginal cream"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "739006009",
+      "display" : "solution"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "39154008",
+        "display" : "Syndromic"
+      },
+      {
+        "code" : "15220000",
+        "display" : "Laboratory testing"
+      },
+      {
+        "code" : "405262001",
+        "display" : "Point-of-care rapid testing"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:74f470ef-6d86-4421-861a-65203b141f23",
+    "timestamp" : "2020-03-10T20:56:13.943Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "39154008",
+      "display" : "Syndromic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15220000",
+      "display" : "Laboratory testing"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405262001",
+      "display" : "Point-of-care rapid testing"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "105629000",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "76272004",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "33839006; 40745002; 402894005",
+        "display" : "Genital herpes"
+      },
+      {
+        "code" : "15628003",
+        "display" : "Gonorrhea"
+      },
+      {
+        "code" : "68704007",
+        "display" : "Gonococcal"
+      },
+      {
+        "code" : "237091009",
+        "display" : "Vaginal infection"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "447353001",
+        "display" : "Cervical infection"
+      },
+      {
+        "code" : "423451008",
+        "display" : "Anaerobic infection"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "266113007",
+        "display" : "Genital warts"
+      },
+      {
+        "code" : "419266001",
+        "display" : "Cervical warts"
+      },
+      {
+        "code" : "18504008",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "68566005",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus (HPV)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:0ef34c1b-4238-423a-b778-de8dd3a2b742",
+    "timestamp" : "2020-03-10T20:56:14.287Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "105629000",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76272004",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33839006; 40745002; 402894005",
+      "display" : "Genital herpes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15628003",
+      "display" : "Gonorrhea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68704007",
+      "display" : "Gonococcal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "237091009",
+      "display" : "Vaginal infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "447353001",
+      "display" : "Cervical infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "423451008",
+      "display" : "Anaerobic infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266113007",
+      "display" : "Genital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419266001",
+      "display" : "Cervical warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18504008",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68566005",
+      "display" : "Urinary tract infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240532009",
+      "display" : "Human papillomavirus (HPV)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "312155003",
+        "display" : "genital"
+      },
+      {
+        "code" : "426867001",
+        "display" : "anorectal"
+      },
+      {
+        "code" : "15302007",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:10c8b1b7-e74a-4ef2-a7a9-cbf016645726",
+    "timestamp" : "2020-03-10T20:56:14.553Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "312155003",
+      "display" : "genital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "426867001",
+      "display" : "anorectal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15302007",
+      "display" : "Herpes simplex virus type 1 (HSV-1)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "182919001",
+        "display" : "re-treat"
+      },
+      {
+        "code" : "16311004",
+        "display" : "reinforce condom use"
+      },
+      {
+        "code" : "225160006",
+        "display" : "reinforce sexual abstinence"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:acf7a7b7-671b-4a43-8aa7-b98639b691f7",
+    "timestamp" : "2020-03-10T20:56:14.803Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "182919001",
+      "display" : "re-treat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16311004",
+      "display" : "reinforce condom use"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "225160006",
+      "display" : "reinforce sexual abstinence"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "261665006",
+        "display" : "Don't know"
+      },
+      {
+        "code" : "10828004",
+        "display" : "Positive"
+      },
+      {
+        "code" : "260385009",
+        "display" : "Negative"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:f5d89c53-dc79-4782-b1df-77c6494ed00d",
+    "timestamp" : "2020-03-10T20:56:15.068Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "261665006",
+      "display" : "Don't know"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10828004",
+      "display" : "Positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "289567003",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "16186004",
+        "display" : "Vulval or vaginal Irritation"
+      },
+      {
+        "code" : "249545003",
+        "display" : "Abdominal guarding"
+      },
+      {
+        "code" : "35611005",
+        "display" : "Rebound tenderness"
+      },
+      {
+        "code" : "271860004",
+        "display" : "Abdominal mass"
+      },
+      {
+        "code" : "289815006",
+        "display" : "Cervical motion tenderness"
+      },
+      {
+        "code" : "54586004",
+        "display" : "Pain in lower abdomen during pelvic examination"
+      },
+      {
+        "code" : "25845007",
+        "display" : "Ulcer(s) improving"
+      },
+      {
+        "code" : "125313005",
+        "display" : "Ulcer(s) healed"
+      },
+      {
+        "code" : "297123002",
+        "display" : "Adnexal tenderness"
+      },
+      {
+        "code" : "289667007",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "366296005",
+        "display" : "Foul-smelling vaginal discharge"
+      },
+      {
+        "code" : "36311007",
+        "display" : "Vulval oedema"
+      },
+      {
+        "code" : "289485008",
+        "display" : "Vulval erythema (redness)"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth sores"
+      },
+      {
+        "code" : "26284000",
+        "display" : "Mouth ulcers"
+      },
+      {
+        "code" : "49650001",
+        "display" : "Painful urination"
+      },
+      {
+        "code" : "9957009",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "281398003",
+        "display" : "Groin lumps"
+      },
+      {
+        "code" : "274743004",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "283130009",
+        "display" : "Genital blisters"
+      },
+      {
+        "code" : "38864007",
+        "display" : "Anogenital sores"
+      },
+      {
+        "code" : "95595006",
+        "display" : "Genital ulcer"
+      },
+      {
+        "code" : "240542006",
+        "display" : "Anogenital warts"
+      },
+      {
+        "code" : "95596009",
+        "display" : "Genital pruritus (itching)"
+      },
+      {
+        "code" : "289553007",
+        "display" : "Curd-like vaginal discharge"
+      },
+      {
+        "code" : "80182007",
+        "display" : "Irregular period without heavy bleeding"
+      },
+      {
+        "code" : "315224006",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhea"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:981681ee-a528-44aa-b9ef-0dd3d96673ce",
+    "timestamp" : "2020-03-10T20:56:19.771Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "289567003",
+      "display" : "Abnormal vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16186004",
+      "display" : "Vulval or vaginal Irritation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "249545003",
+      "display" : "Abdominal guarding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35611005",
+      "display" : "Rebound tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271860004",
+      "display" : "Abdominal mass"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289815006",
+      "display" : "Cervical motion tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "54586004",
+      "display" : "Pain in lower abdomen during pelvic examination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25845007",
+      "display" : "Ulcer(s) improving"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "125313005",
+      "display" : "Ulcer(s) healed"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "297123002",
+      "display" : "Adnexal tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289667007",
+      "display" : "Uterine tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366296005",
+      "display" : "Foul-smelling vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "36311007",
+      "display" : "Vulval oedema"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289485008",
+      "display" : "Vulval erythema (redness)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26284000",
+      "display" : "Mouth ulcers"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "49650001",
+      "display" : "Painful urination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9957009",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281398003",
+      "display" : "Groin lumps"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274743004",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "283130009",
+      "display" : "Genital blisters"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38864007",
+      "display" : "Anogenital sores"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95595006",
+      "display" : "Genital ulcer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "240542006",
+      "display" : "Anogenital warts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "95596009",
+      "display" : "Genital pruritus (itching)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289553007",
+      "display" : "Curd-like vaginal discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80182007",
+      "display" : "Irregular period without heavy bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315224006",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14302001",
+      "display" : "Amenorrhea"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "16241000",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "76272004",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "19965007",
+        "display" : "Herpes simplex virus"
+      },
+      {
+        "code" : "13687007",
+        "display" : "Herpes simplex virus type 2"
+      },
+      {
+        "code" : "15628003",
+        "display" : "Gonorrhea"
+      },
+      {
+        "code" : "68704007",
+        "display" : "Gonococcal"
+      },
+      {
+        "code" : "53326005",
+        "display" : "Candida albicans"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "56335008",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "447353001",
+        "display" : "Cervical infection"
+      },
+      {
+        "code" : "423451008",
+        "display" : "Anaerobic infection"
+      },
+      {
+        "code" : "266143009",
+        "display" : "Chancroid"
+      },
+      {
+        "code" : "198130006",
+        "display" : "Pelvic Inflammatory Disease (PID)"
+      },
+      {
+        "code" : "9482002",
+        "display" : "Human papillomavirus"
+      },
+      {
+        "code" : "2858002",
+        "display" : "Postpartum infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:9065c2a6-5813-4cc0-b7e5-8a3565ab3c1a",
+    "timestamp" : "2020-03-10T20:56:20.709Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "16241000",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76272004",
+      "display" : "Syphilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19965007",
+      "display" : "Herpes simplex virus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13687007",
+      "display" : "Herpes simplex virus type 2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15628003",
+      "display" : "Gonorrhea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68704007",
+      "display" : "Gonococcal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53326005",
+      "display" : "Candida albicans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "56335008",
+      "display" : "Trichomoniasis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "447353001",
+      "display" : "Cervical infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "423451008",
+      "display" : "Anaerobic infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266143009",
+      "display" : "Chancroid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "198130006",
+      "display" : "Pelvic Inflammatory Disease (PID)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9482002",
+      "display" : "Human papillomavirus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2858002",
+      "display" : "Postpartum infection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "278499009",
+        "display" : "episodic therapy"
+      },
+      {
+        "code" : "244840000",
+        "display" : "suppressive therapy"
+      },
+      {
+        "code" : "413568008",
+        "display" : "application"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4587dd06-b05a-4a9b-ab04-404a7e1867c5",
+    "timestamp" : "2020-03-10T20:56:21.459Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "278499009",
+      "display" : "episodic therapy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "244840000",
+      "display" : "suppressive therapy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413568008",
+      "display" : "application"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385100002",
+        "display" : "gel"
+      },
+      {
+        "code" : "26643006",
+        "display" : "oral"
+      },
+      {
+        "code" : "421195004",
+        "display" : "vaginal suppository"
+      },
+      {
+        "code" : "255559005",
+        "display" : "intramuscular"
+      },
+      {
+        "code" : "385178005",
+        "display" : "vaginal tablet"
+      },
+      {
+        "code" : "421427005",
+        "display" : "eye ointment"
+      },
+      {
+        "code" : "264049007",
+        "display" : "intravaginally"
+      },
+      {
+        "code" : "385178005",
+        "display" : "vaginal tablet"
+      },
+      {
+        "code" : "385165005",
+        "display" : "cream"
+      },
+      {
+        "code" : "385165005",
+        "display" : "Vaginal cream"
+      },
+      {
+        "code" : "739006009",
+        "display" : "solution"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:52aea747-f8c2-4193-b56d-e5cab6e16eb9",
+    "timestamp" : "2020-03-10T20:56:22.662Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385100002",
+      "display" : "gel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26643006",
+      "display" : "oral"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421195004",
+      "display" : "vaginal suppository"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "255559005",
+      "display" : "intramuscular"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385178005",
+      "display" : "vaginal tablet"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "421427005",
+      "display" : "eye ointment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264049007",
+      "display" : "intravaginally"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385165005",
+      "display" : "cream"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385165005",
+      "display" : "Vaginal cream"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "739006009",
+      "display" : "solution"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "39154008",
+        "display" : "Syndromic"
+      },
+      {
+        "code" : "15220000",
+        "display" : "Laboratory testing"
+      },
+      {
+        "code" : "405262001",
+        "display" : "Point-of-care rapid testing"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:c84209aa-a4d2-4c0e-b686-d60d2b9436a1",
+    "timestamp" : "2020-03-10T20:56:22.990Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "39154008",
+      "display" : "Syndromic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15220000",
+      "display" : "Laboratory testing"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405262001",
+      "display" : "Point-of-care rapid testing"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "312155003",
+        "display" : "genital"
+      },
+      {
+        "code" : "426867001",
+        "display" : "anorectal"
+      },
+      {
+        "code" : "15302007",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:d6c5628e-c59f-4560-a6e9-027b55a26ea2",
+    "timestamp" : "2020-03-10T20:56:24.037Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "312155003",
+      "display" : "genital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "426867001",
+      "display" : "anorectal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15302007",
+      "display" : "Herpes simplex virus type 1 (HSV-1)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "182919001",
+        "display" : "re-treat"
+      },
+      {
+        "code" : "16311004",
+        "display" : "reinforce condom use"
+      },
+      {
+        "code" : "225160006",
+        "display" : "reinforce sexual abstinence"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:84b1993b-6e19-419f-9f3c-f3d535cc9d69",
+    "timestamp" : "2020-03-10T20:56:24.350Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "182919001",
+      "display" : "re-treat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16311004",
+      "display" : "reinforce condom use"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "225160006",
+      "display" : "reinforce sexual abstinence"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "261665006",
+        "display" : "Don't know"
+      },
+      {
+        "code" : "10828004",
+        "display" : "Positive"
+      },
+      {
+        "code" : "260385009",
+        "display" : "Negative"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:d5cbb366-a55f-4ce5-8c19-641b45dc6256",
+    "timestamp" : "2020-03-10T20:56:24.646Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "261665006",
+      "display" : "Don't know"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10828004",
+      "display" : "Positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26039008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Neurosyphilis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

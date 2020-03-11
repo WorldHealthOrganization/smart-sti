@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "route-of-adminstration",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/route-of-adminstration",
-  "name": "Route of adminstration",
-  "title": "Route of adminstration",
+  "id": "who-sti-medication",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medication",
+  "name": "who-sti-medication",
+  "title": "who-sti-medication",
   "status": "draft",
   "experimental": false,
-  "description": "How the medication is administered",
+  "description": "who-sti-medication",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -21,14 +21,19 @@
         "mustSupport": false
       },
       {
-        "id": "Medication.Administration.dosage.route",
-        "path": "Medication.Administration.dosage.route",
+        "id": "Medication.form",
+        "path": "Medication.form",
         "min": 0,
         "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/route-of-adminstration-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-form-values"
         }
       }
     ]

@@ -176,3 +176,45 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "https://loinc.org/82457-3/",
+  "display" : "Date of Last HPV Test (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"https://loinc.org/82457-3/\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#https://loinc.org/82457-3/) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "https://loinc.org/82457-3/"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"https://loinc.org/82457-3/\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#https://loinc.org/82457-3/) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "75197-4",
+  "display" : "Recent syphilis treatment (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Syphilis treatment was given and treatment description [CDC.CS]",
+  "severity" : "warning",
+  "error" : "The display \"Recent syphilis treatment (LOINC)\" is not a valid display for the code {http://loinc.org}75197-4 - should be one of [\"Syphilis treatment was given and treatment description [CDC.CS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "75197-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Syphilis treatment was given and treatment description [CDC.CS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

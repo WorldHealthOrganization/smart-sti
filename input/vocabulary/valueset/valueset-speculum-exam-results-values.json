@@ -39,8 +39,28 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
+            "code": "289519008",
+            "display": "Blisters"
+          },
+          {
+            "code": "289567003",
+            "display": "Abnormal vaginal discharge"
+          },
+          {
+            "code": "126486000",
+            "display": "Redness of vaginal walls"
+          },
+          {
+            "code": "307492008",
+            "display": "Discharge appears mucopurulent with discoloration"
+          },
+          {
             "code": "35013009",
             "display": "Purulent discharge"
+          },
+          {
+            "code": "363354003",
+            "display": "Cervical tumors"
           },
           {
             "code": "276375002",

@@ -14,6 +14,14 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
+            "code": "16241000",
+            "display": "Chlamydia"
+          },
+          {
+            "code": "76272004",
+            "display": "Syphilis"
+          },
+          {
             "code": "19965007",
             "display": "Herpes simplex virus"
           },
@@ -22,8 +30,32 @@
             "display": "Herpes simplex virus type 2"
           },
           {
+            "code": "15628003",
+            "display": "Gonorrhea"
+          },
+          {
+            "code": "68704007",
+            "display": "Gonococcal"
+          },
+          {
             "code": "53326005",
             "display": "Candida albicans"
+          },
+          {
+            "code": "419760006",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "56335008",
+            "display": "Trichomoniasis"
+          },
+          {
+            "code": "447353001",
+            "display": "Cervical infection"
+          },
+          {
+            "code": "423451008",
+            "display": "Anaerobic infection"
           },
           {
             "code": "266143009",
@@ -36,6 +68,10 @@
           {
             "code": "9482002",
             "display": "Human papillomavirus"
+          },
+          {
+            "code": "2858002",
+            "display": "Postpartum infection"
           }
         ]
       },

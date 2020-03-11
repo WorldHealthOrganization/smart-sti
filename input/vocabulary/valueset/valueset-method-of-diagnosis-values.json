@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "method-of-diagnosis-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/method-of-diagnosis-values",
+  "name": "method-of-diagnosis-values",
+  "title": "Method of diagnosis values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Method of diagnosis element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "39154008",
+            "display": "Syndromic"
+          },
+          {
+            "code": "15220000",
+            "display": "Laboratory testing"
+          },
+          {
+            "code": "405262001",
+            "display": "Point-of-care rapid testing"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -14,6 +14,10 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
+            "code": "289567003",
+            "display": "Abnormal vaginal discharge"
+          },
+          {
             "code": "16186004",
             "display": "Vulval or vaginal Irritation"
           },
@@ -32,6 +36,18 @@
           {
             "code": "289815006",
             "display": "Cervical motion tenderness"
+          },
+          {
+            "code": "54586004",
+            "display": "Pain in lower abdomen during pelvic examination"
+          },
+          {
+            "code": "25845007",
+            "display": "Ulcer(s) improving"
+          },
+          {
+            "code": "125313005",
+            "display": "Ulcer(s) healed"
           },
           {
             "code": "297123002",

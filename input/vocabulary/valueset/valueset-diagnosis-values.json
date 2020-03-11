@@ -63,8 +63,24 @@
             "display": "Gonorrhea"
           },
           {
+            "code": "68704007",
+            "display": "Gonococcal"
+          },
+          {
+            "code": "237091009",
+            "display": "Vaginal infection"
+          },
+          {
             "code": "419760006",
             "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "447353001",
+            "display": "Cervical infection"
+          },
+          {
+            "code": "423451008",
+            "display": "Anaerobic infection"
           },
           {
             "code": "198130006",
