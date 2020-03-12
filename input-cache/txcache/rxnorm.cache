@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "concept" : [{
+        "code" : "215648",
+        "display" : "compound tincture of benzoin"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:561a50e5-44ed-43c3-926e-d8ae81df1839",
+    "timestamp" : "2020-03-11T19:40:18.567Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://www.nlm.nih.gov/research/umls/rxnorm|??"
+    }],
+    "contains" : [{
+      "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "code" : "215648",
+      "display" : "compound tincture of benzoin"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
