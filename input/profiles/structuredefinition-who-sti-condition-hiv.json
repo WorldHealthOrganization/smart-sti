@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-sti-condition-hiv",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-condition-hiv",
+  "name": "who-sti-condition-hiv",
+  "title": "who-sti-condition-hiv",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-sti-condition-hiv",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition",
+        "path": "Condition",
+        "mustSupport": false
+      },
+      {
+        "id": "Condition.onset[x]",
+        "path": "Condition.onset[x]",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

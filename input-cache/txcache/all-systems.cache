@@ -1,281 +1,4 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "http://hl7.org/fhirpath/System.String"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/data-types"
-    },
-    {
-      "system" : "http://hl7.org/fhir/resource-types"
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code system \"\" is not known (encountered paired with code = \"http://hl7.org/fhirpath/System.String\"); The code provided (#http://hl7.org/fhirpath/System.String) is not  valid in the value set FHIRDefinedType"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "19965007",
-        "display" : "Herpes simplex virus"
-      },
-      {
-        "code" : "13687007",
-        "display" : "Herpes simplex virus type 2"
-      },
-      {
-        "code" : "53326005",
-        "display" : "Candida albicans"
-      },
-      {
-        "code" : "266143009",
-        "display" : "Chancroid"
-      },
-      {
-        "code" : "198130006",
-        "display" : "Pelvic Inflammatory Disease (PID)"
-      },
-      {
-        "code" : "9482002",
-        "display" : "Human papillomavirus"
-      }]
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "R87.1",
-        "display" : "Human papillomavirus"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N76.5",
-        "display" : "Ulcers"
-      },
-      {
-        "code" : "S30.824D",
-        "display" : "Abnormal vaginal discharge"
-      },
-      {
-        "code" : "R10.81",
-        "display" : "Abdominal tenderness"
-      },
-      {
-        "code" : "N93.9",
-        "display" : "Unexplained vaginal bleeding"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "35013009",
-        "display" : "Purulent discharge"
-      },
-      {
-        "code" : "276375002",
-        "display" : "Foul-smelling lochia"
-      },
-      {
-        "code" : "289580000",
-        "display" : "Profuse lochia"
-      },
-      {
-        "code" : "43478001",
-        "display" : "Abdominal tenderness"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA6626-1",
-        "display" : "Normal"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "17621005",
-        "display" : "Normal"
-      }]
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "L90.0",
-        "display" : "Lower abdominal tenderness"
-      },
-      {
-        "code" : "R10.2",
-        "display" : "Adnexa tenderness"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "A74.9",
-        "display" : "Chlamydia"
-      },
-      {
-        "code" : "A53.9",
-        "display" : "Syphilis"
-      },
-      {
-        "code" : "B37",
-        "display" : "Yeast infection"
-      },
-      {
-        "code" : "A59.9",
-        "display" : "Trichomoniasis"
-      },
-      {
-        "code" : "N73.9",
-        "display" : "Pelvic Inflammatory Disease"
-      },
-      {
-        "code" : "A48.3",
-        "display" : "Toxic shock syndrome"
-      },
-      {
-        "code" : "N39.0",
-        "display" : "Urinary tract infection"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "105629000",
-        "display" : "Chlamydia"
-      },
-      {
-        "code" : "76272004",
-        "display" : "Syphilis"
-      },
-      {
-        "code" : "33839006; 40745002; 402894005",
-        "display" : "Genital herpes"
-      },
-      {
-        "code" : "15628003",
-        "display" : "Gonorrhea"
-      },
-      {
-        "code" : "419760006",
-        "display" : "Bacterial vaginosis"
-      },
-      {
-        "code" : "198130006",
-        "display" : "Pelvic Inflammatory Disease"
-      },
-      {
-        "code" : "266113007",
-        "display" : "Genital warts"
-      },
-      {
-        "code" : "419266001",
-        "display" : "Cervical warts"
-      },
-      {
-        "code" : "18504008",
-        "display" : "Toxic shock syndrome"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus (HPV)"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/request-status",
-      "concept" : [{
-        "code" : "completed",
-        "display" : "Done"
-      }]
-    },
-    {
-      "system" : "http://who.int/cg/CodeSystem/extended-content",
-      "concept" : [{
-        "code" : "Not Done",
-        "display" : "Not done"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -319,630 +42,23 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
+{"code" : {
+  "code" : "http://hl7.org/fhirpath/System.String"
+}, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "A74.9",
-        "display" : "Chlamydia"
-      },
-      {
-        "code" : "A53.9",
-        "display" : "Syphilis"
-      },
-      {
-        "code" : "B37",
-        "display" : "Yeast infection"
-      },
-      {
-        "code" : "A59.9",
-        "display" : "Trichomoniasis"
-      },
-      {
-        "code" : "N73.9",
-        "display" : "Pelvic Inflammatory Disease"
-      },
-      {
-        "code" : "A48.3",
-        "display" : "Toxic shock syndrome"
-      },
-      {
-        "code" : "N39; Z87.440",
-        "display" : "Urinary tract infection"
-      }]
+      "system" : "http://hl7.org/fhir/data-types"
     },
     {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "105629000",
-        "display" : "Chlamydia"
-      },
-      {
-        "code" : "76272004",
-        "display" : "Syphilis"
-      },
-      {
-        "code" : "33839006; 40745002; 402894005",
-        "display" : "Genital herpes"
-      },
-      {
-        "code" : "15628003",
-        "display" : "Gonorrhea"
-      },
-      {
-        "code" : "419760006",
-        "display" : "Bacterial vaginosis"
-      },
-      {
-        "code" : "198130006",
-        "display" : "Pelvic Inflammatory Disease"
-      },
-      {
-        "code" : "266113007",
-        "display" : "Genital warts"
-      },
-      {
-        "code" : "419266001",
-        "display" : "Cervical warts"
-      },
-      {
-        "code" : "18504008",
-        "display" : "Toxic shock syndrome"
-      },
-      {
-        "code" : "68566005",
-        "display" : "Urinary tract infection"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus (HPV)"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
+      "system" : "http://hl7.org/fhir/resource-types"
     }]
   }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "concept" : [{
-        "code" : "active",
-        "display" : "Active"
-      },
-      {
-        "code" : "recurrence",
-        "display" : "Recurrence"
-      },
-      {
-        "code" : "relapse",
-        "display" : "Relapse"
-      },
-      {
-        "code" : "inactive",
-        "display" : "Inactive"
-      },
-      {
-        "code" : "remission",
-        "display" : "Remission"
-      },
-      {
-        "code" : "resolved",
-        "display" : "Resolved"
-      }]
-    },
-    {
-      "system" : "http://who.int/cg/CodeSystem/extended-content",
-      "concept" : [{
-        "code" : "Unknown",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "16186004",
-        "display" : "Vulval or vaginal Irritation"
-      },
-      {
-        "code" : "249545003",
-        "display" : "Abdominal guarding"
-      },
-      {
-        "code" : "35611005",
-        "display" : "Rebound tenderness"
-      },
-      {
-        "code" : "271860004",
-        "display" : "Abdominal mass"
-      },
-      {
-        "code" : "289815006",
-        "display" : "Cervical motion tenderness"
-      },
-      {
-        "code" : "297123002",
-        "display" : "Adnexal tenderness"
-      },
-      {
-        "code" : "289667007",
-        "display" : "Uterine tenderness"
-      },
-      {
-        "code" : "366296005",
-        "display" : "Foul-smelling vaginal discharge"
-      },
-      {
-        "code" : "36311007",
-        "display" : "Vulval oedema"
-      },
-      {
-        "code" : "289485008",
-        "display" : "Vulval erythema (redness)"
-      },
-      {
-        "code" : "26284000",
-        "display" : "Mouth sores"
-      },
-      {
-        "code" : "26284000",
-        "display" : "Mouth ulcers"
-      },
-      {
-        "code" : "49650001",
-        "display" : "Painful urination"
-      },
-      {
-        "code" : "9957009",
-        "display" : "Urethral discharge"
-      },
-      {
-        "code" : "281398003",
-        "display" : "Groin lumps"
-      },
-      {
-        "code" : "274743004",
-        "display" : "Groin swelling"
-      },
-      {
-        "code" : "283130009",
-        "display" : "Genital blisters"
-      },
-      {
-        "code" : "38864007",
-        "display" : "Anogenital sores"
-      },
-      {
-        "code" : "95595006",
-        "display" : "Genital ulcer"
-      },
-      {
-        "code" : "240542006",
-        "display" : "Anogenital warts"
-      },
-      {
-        "code" : "95596009",
-        "display" : "Genital pruritus (itching)"
-      },
-      {
-        "code" : "289553007",
-        "display" : "Curd-like vaginal discharge"
-      },
-      {
-        "code" : "80182007",
-        "display" : "Irregular period without heavy bleeding"
-      },
-      {
-        "code" : "315224006",
-        "display" : "Heavy or prolonged bleeding"
-      },
-      {
-        "code" : "14302001",
-        "display" : "Amenorrhea"
-      }]
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "R10.2; R10.819; N94.89; N85.8; R10",
-        "display" : "Uterine tenderness"
-      },
-      {
-        "code" : "N76.5;S30.824D",
-        "display" : "Vesicles"
-      },
-      {
-        "code" : "Q53.9",
-        "display" : "Testis rotated or elevated"
-      },
-      {
-        "code" : "R36.9",
-        "display" : "Urethral discharge"
-      },
-      {
-        "code" : "R22",
-        "display" : "Groin lumps"
-      },
-      {
-        "code" : "R19.09; R22.41",
-        "display" : "Groin swelling"
-      },
-      {
-        "code" : "NEED VALUE SET",
-        "display" : "Anogenital sores"
-      },
-      {
-        "code" : "A63.0",
-        "display" : "Anogenital warts"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "z01.419",
-        "display" : "Normal"
-      },
-      {
-        "code" : "N76.5",
-        "display" : "Ulcers"
-      },
-      {
-        "code" : "S30.824D",
-        "display" : "Abnormal vaginal discharge"
-      },
-      {
-        "code" : "R10.81",
-        "display" : "Abdominal tenderness"
-      },
-      {
-        "code" : "N93.9",
-        "display" : "Unexplained vaginal bleeding"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "35013009",
-        "display" : "Purulent discharge"
-      },
-      {
-        "code" : "276375002",
-        "display" : "Foul-smelling lochia"
-      },
-      {
-        "code" : "289580000",
-        "display" : "Profuse lochia"
-      },
-      {
-        "code" : "77012006",
-        "display" : "Amniotic fluid"
-      },
-      {
-        "code" : "43478001",
-        "display" : "Abdominal tenderness"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA6626-1",
-        "display" : "Normal"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "17621005",
-        "display" : "Normal"
-      },
-      {
-        "code" : "289667007",
-        "display" : "Uterine tenderness"
-      }]
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "L90.0",
-        "display" : "Lower abdominal tenderness"
-      },
-      {
-        "code" : "R10.2",
-        "display" : "Adnexa tenderness"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "289567003",
-        "display" : "Abnormal vaginal discharge"
-      },
-      {
-        "code" : "16186004",
-        "display" : "Vulval or vaginal Irritation"
-      },
-      {
-        "code" : "249545003",
-        "display" : "Abdominal guarding"
-      },
-      {
-        "code" : "35611005",
-        "display" : "Rebound tenderness"
-      },
-      {
-        "code" : "271860004",
-        "display" : "Abdominal mass"
-      },
-      {
-        "code" : "289815006",
-        "display" : "Cervical motion tenderness"
-      },
-      {
-        "code" : "297123002",
-        "display" : "Adnexal tenderness"
-      },
-      {
-        "code" : "289667007",
-        "display" : "Uterine tenderness"
-      },
-      {
-        "code" : "366296005",
-        "display" : "Foul-smelling vaginal discharge"
-      },
-      {
-        "code" : "36311007",
-        "display" : "Vulval oedema"
-      },
-      {
-        "code" : "289485008",
-        "display" : "Vulval erythema (redness)"
-      },
-      {
-        "code" : "26284000",
-        "display" : "Mouth sores"
-      },
-      {
-        "code" : "26284000",
-        "display" : "Mouth ulcers"
-      },
-      {
-        "code" : "49650001",
-        "display" : "Painful urination"
-      },
-      {
-        "code" : "9957009",
-        "display" : "Urethral discharge"
-      },
-      {
-        "code" : "281398003",
-        "display" : "Groin lumps"
-      },
-      {
-        "code" : "274743004",
-        "display" : "Groin swelling"
-      },
-      {
-        "code" : "283130009",
-        "display" : "Genital blisters"
-      },
-      {
-        "code" : "38864007",
-        "display" : "Anogenital sores"
-      },
-      {
-        "code" : "95595006",
-        "display" : "Genital ulcer"
-      },
-      {
-        "code" : "240542006",
-        "display" : "Anogenital warts"
-      },
-      {
-        "code" : "95596009",
-        "display" : "Genital pruritus (itching)"
-      },
-      {
-        "code" : "289553007",
-        "display" : "Curd-like vaginal discharge"
-      },
-      {
-        "code" : "80182007",
-        "display" : "Irregular period without heavy bleeding"
-      },
-      {
-        "code" : "315224006",
-        "display" : "Heavy or prolonged bleeding"
-      },
-      {
-        "code" : "14302001",
-        "display" : "Amenorrhea"
-      }]
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "R10.2; R10.819; N94.89; N85.8; R10",
-        "display" : "Uterine tenderness"
-      },
-      {
-        "code" : "N76.5;S30.824D",
-        "display" : "Vesicles"
-      },
-      {
-        "code" : "Q53.9",
-        "display" : "Testis rotated or elevated"
-      },
-      {
-        "code" : "R36.9",
-        "display" : "Urethral discharge"
-      },
-      {
-        "code" : "R22",
-        "display" : "Groin lumps"
-      },
-      {
-        "code" : "R19.09; R22.41",
-        "display" : "Groin swelling"
-      },
-      {
-        "code" : "NEED VALUE SET",
-        "display" : "Anogenital sores"
-      },
-      {
-        "code" : "A63.0",
-        "display" : "Anogenital warts"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "z01.419",
-        "display" : "Normal"
-      },
-      {
-        "code" : "N76.5",
-        "display" : "Ulcers"
-      },
-      {
-        "code" : "S30.824D",
-        "display" : "Abnormal vaginal discharge"
-      },
-      {
-        "code" : "R10.81",
-        "display" : "Abdominal tenderness"
-      },
-      {
-        "code" : "N93.9",
-        "display" : "Unexplained vaginal bleeding"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "289567003",
-        "display" : "Abnormal vaginal discharge"
-      },
-      {
-        "code" : "35013009",
-        "display" : "Purulent discharge"
-      },
-      {
-        "code" : "363354003",
-        "display" : "Cervical tumors"
-      },
-      {
-        "code" : "276375002",
-        "display" : "Foul-smelling lochia"
-      },
-      {
-        "code" : "289580000",
-        "display" : "Profuse lochia"
-      },
-      {
-        "code" : "77012006",
-        "display" : "Amniotic fluid"
-      },
-      {
-        "code" : "43478001",
-        "display" : "Abdominal tenderness"
-      }]
-    },
-    {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
-      "concept" : [{
-        "code" : "Other",
-        "display" : "Other (specify)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"http://hl7.org/fhirpath/System.String\"); The code provided (#http://hl7.org/fhirpath/System.String) is not  valid in the value set FHIRDefinedType"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -1103,8 +219,24 @@ e: {
       }]
     },
     {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
       "concept" : [{
+        "code" : "Ulcer in reproductive tract",
+        "display" : "Ulcer in reproductive tract"
+      },
+      {
+        "code" : "Clusters of erythematous papules",
+        "display" : "Clusters of erythematous papules"
+      },
+      {
+        "code" : "Groin ulcer",
+        "display" : "Groin ulcer"
+      },
+      {
+        "code" : "Cervical infection",
+        "display" : "Cervical infection"
+      },
+      {
         "code" : "Other",
         "display" : "Other (specify)"
       }]
@@ -1112,7 +244,7 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
+  "error" : "Error from server: unable to find code 16186004 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -1189,7 +321,7 @@ e: {
       }]
     },
     {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
       "concept" : [{
         "code" : "Other",
         "display" : "Other (specify)"
@@ -1198,7 +330,7 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -1280,7 +412,7 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -1328,7 +460,7 @@ e: {
       }]
     },
     {
-      "system" : "http://www.who.int/fhir/CodeSystem/core-codes",
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
       "concept" : [{
         "code" : "Other",
         "display" : "Other (specify)"
@@ -1337,7 +469,7 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -1447,6 +579,181 @@ e: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://www.who.int/fhir/CodeSystem/core-codes"
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/request-status",
+      "concept" : [{
+        "code" : "completed",
+        "display" : "Done"
+      }]
+    },
+    {
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Not Done",
+        "display" : "Not done"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Active"
+      },
+      {
+        "code" : "recurrence",
+        "display" : "Recurrence"
+      },
+      {
+        "code" : "relapse",
+        "display" : "Relapse"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactive"
+      },
+      {
+        "code" : "remission",
+        "display" : "Remission"
+      },
+      {
+        "code" : "resolved",
+        "display" : "Resolved"
+      }]
+    },
+    {
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Unknown",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "312155003",
+        "display" : "genital"
+      },
+      {
+        "code" : "426867001",
+        "display" : "anorectal"
+      },
+      {
+        "code" : "15302007",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A55",
+        "display" : "Lymphogranuloma venereum (LGV)"
+      },
+      {
+        "code" : "H10.9",
+        "display" : "conjunctivitis"
+      },
+      {
+        "code" : "A54.5",
+        "display" : "oropharyngeal infection"
+      },
+      {
+        "code" : "A54.31",
+        "display" : "Conjunctivitis"
+      },
+      {
+        "code" : "B00",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      },
+      {
+        "code" : "A60.00; A60.09",
+        "display" : "Herpes simplex virus type 2 (HSV-2)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "provide partner treatment",
+        "display" : "provide partner treatment"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "182919001",
+        "display" : "re-treat"
+      },
+      {
+        "code" : "16311004",
+        "display" : "reinforce condom use"
+      },
+      {
+        "code" : "225160006",
+        "display" : "reinforce sexual abstinence"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "787481004",
+        "display" : "None"
+      },
+      {
+        "code" : "261665006",
+        "display" : "Don't know"
+      }]
+    },
+    {
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Other",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
 }
 -------------------------------------------------------------------------------------

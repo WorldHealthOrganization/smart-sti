@@ -7,7 +7,7 @@
   "status": "draft",
   "experimental": false,
   "description": "who-sti-medication",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Medication",
@@ -19,6 +19,21 @@
         "id": "Medication",
         "path": "Medication",
         "mustSupport": false
+      },
+      {
+        "id": "Medication.extension:drug-warnings",
+        "path": "Medication.extension",
+        "sliceName": "drug-warnings",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/drug-warnings"
+            ]
+          }
+        ]
       },
       {
         "id": "Medication.form",

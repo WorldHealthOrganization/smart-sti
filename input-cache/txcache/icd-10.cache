@@ -1,28 +1,6 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z11.3",
-  "display" : "GC Screen Result (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z11.3\" not found; The code \"Z11.3\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.3) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z11.3",
-  "display" : "STI Screenings performed (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z11.3\" not found; The code \"Z11.3\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.3) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "Z72.5; Z72.51; Z72.52; Z72.53",
   "display" : "Increased risk of STIs (ICD-10-WHO)"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
@@ -30,6 +8,17 @@ v: {
   "display" : "",
   "severity" : "error",
   "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5",
+  "display" : "STI Risk assessment conducted (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -45,17 +34,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "r50.9",
-  "display" : "Signs of fever (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"r50.9\" not found; The code \"r50.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#r50.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "r57.9",
   "display" : "Signs of shock (ICD-10-WHO)"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
@@ -67,13 +45,13 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.5",
-  "display" : "STI Risk assessment conducted (ICD-10-WHO)"
+  "code" : "r50.9",
+  "display" : "Signs of fever (ICD-10-WHO)"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
+  "error" : "Code \"r50.9\" not found; The code \"r50.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#r50.9) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -117,62 +95,7 @@ v: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:49f2232f-3ef2-48ea-87bf-ded43ed88577",
-    "timestamp" : "2020-03-11T19:40:17.161Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R10.2; R10.819; N94.89; N85.8; R10",
-      "display" : "Uterine tenderness"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N76.5;S30.824D",
-      "display" : "Vesicles"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Q53.9",
-      "display" : "Testis rotated or elevated"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R36.9",
-      "display" : "Urethral discharge"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R22",
-      "display" : "Groin lumps"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R19.09; R22.41",
-      "display" : "Groin swelling"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "NEED VALUE SET",
-      "display" : "Anogenital sores"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A63.0",
-      "display" : "Anogenital warts"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -188,27 +111,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:88ca5531-8858-40eb-bcfc-903cb6ae0b93",
-    "timestamp" : "2020-03-11T19:40:17.802Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R87.1",
-      "display" : "Human papillomavirus"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -240,47 +143,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:f4a317fe-5cd4-48fa-bc76-d69aea2e4656",
-    "timestamp" : "2020-03-11T19:40:18.052Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "z01.419",
-      "display" : "Normal"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N76.5",
-      "display" : "Ulcers"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "S30.824D",
-      "display" : "Abnormal vaginal discharge"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R10.81",
-      "display" : "Abdominal tenderness"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N93.9",
-      "display" : "Unexplained vaginal bleeding"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -300,32 +163,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:a2812531-3248-4d67-a01d-48f3293732b8",
-    "timestamp" : "2020-03-11T19:40:18.302Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "L90.0",
-      "display" : "Lower abdominal tenderness"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R10.2",
-      "display" : "Adnexa tenderness"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -365,57 +203,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:df9664fb-7036-4447-8624-7d6cdf20bab2",
-    "timestamp" : "2020-03-11T19:40:18.817Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A74.9",
-      "display" : "Chlamydia"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A53.9",
-      "display" : "Syphilis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "B37",
-      "display" : "Yeast infection"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A59.9",
-      "display" : "Trichomoniasis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N73.9",
-      "display" : "Pelvic Inflammatory Disease"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A48.3",
-      "display" : "Toxic shock syndrome"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N39; Z87.440",
-      "display" : "Urinary tract infection"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -439,37 +227,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:ba54f5f7-7e03-420b-bbde-69e5c8bee1a8",
-    "timestamp" : "2020-03-11T19:40:19.083Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A51.9",
-      "display" : "early"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A52.9",
-      "display" : "late"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A53.9",
-      "display" : "unknown"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -505,52 +263,79 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:13ed45cb-b306-464f-aa66-2e04e466600a",
-    "timestamp" : "2020-03-11T19:40:20.114Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A55",
-      "display" : "Lymphogranuloma venereum (LGV)"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "H10.9",
-      "display" : "conjunctivitis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A54.5",
-      "display" : "oropharyngeal infection"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A54.31",
-      "display" : "Conjunctivitis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "B00",
-      "display" : "Herpes simplex virus type 1 (HSV-1)"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A60.00; A60.09",
-      "display" : "Herpes simplex virus type 2 (HSV-2)"
+      "concept" : [{
+        "code" : "z01.419",
+        "display" : "Normal"
+      },
+      {
+        "code" : "N76.5",
+        "display" : "Ulcers"
+      },
+      {
+        "code" : "S30.824D",
+        "display" : "Abnormal vaginal discharge"
+      },
+      {
+        "code" : "R10.81",
+        "display" : "Abdominal tenderness"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Unexplained vaginal bleeding"
+      }]
     }]
   }
-},
-  "error" : ""
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A74.9",
+        "display" : "Chlamydia"
+      },
+      {
+        "code" : "A53.9",
+        "display" : "Syphilis"
+      },
+      {
+        "code" : "B37",
+        "display" : "Yeast infection"
+      },
+      {
+        "code" : "A59.9",
+        "display" : "Trichomoniasis"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Pelvic Inflammatory Disease"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39; Z87.440",
+        "display" : "Urinary tract infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -574,33 +359,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:31e7acb4-415d-4427-bd47-20dded61f03f",
-    "timestamp" : "2020-03-11T19:40:29.802Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A51.9",
-      "display" : "early"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A52.9",
-      "display" : "late"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A53.9",
-      "display" : "unknown"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -615,22 +374,22 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z11.3"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z11.3\" not found; The code \"Z11.3\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.3) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
   "code" : "Z72.5; Z72.51; Z72.52; Z72.53"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
 v: {
   "display" : "",
   "severity" : "error",
   "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -651,15 +410,5 @@ v: {
   "display" : "",
   "severity" : "error",
   "error" : "Code \"r57.9\" not found; The code \"r57.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#r57.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.5"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------

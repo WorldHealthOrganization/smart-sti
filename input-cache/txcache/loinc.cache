@@ -1,202 +1,4 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA6626-1",
-        "display" : "Normal"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:1ff8cdd8-d2f0-4828-abb1-7090cb29e5ab",
-    "timestamp" : "2020-02-24T20:23:22.849Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.66"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "LA6626-1",
-      "display" : "Normal"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA17250-4",
-        "display" : "vaginal bleeding"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:60ef506e-c61d-4ec6-9a6d-adfebcdeb306",
-    "timestamp" : "2020-02-24T20:23:25.333Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.66"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "LA17250-4",
-      "display" : "vaginal bleeding"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA6626-1",
-        "display" : "Normal"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:f11ccc2d-efd5-4b53-beef-8ee37064d1e7",
-    "timestamp" : "2020-02-24T20:23:37.974Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.66"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "LA6626-1",
-      "display" : "Normal"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://loinc.org",
-      "concept" : [{
-        "code" : "LA17250-4",
-        "display" : "vaginal bleeding"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on LOINC version 2.66</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA17250-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA17250-4.html\">LA17250-4</a></td><td>vaginal bleeding</td></tr></table></div>"
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:4185012d-8ba1-4a92-a857-c0b46907568d",
-    "timestamp" : "2020-02-24T20:23:40.505Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://loinc.org|2.66"
-    }],
-    "contains" : [{
-      "system" : "http://loinc.org",
-      "code" : "LA17250-4",
-      "display" : "vaginal bleeding"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "86662-4",
-  "display" : "Cervical Cancer Screen Result (LOINC)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "Pap smear tests - FPAR 2.0 set",
-  "severity" : "warning",
-  "error" : "The display \"Cervical Cancer Screen Result (LOINC)\" is not a valid display for the code {http://loinc.org}86662-4 - should be one of [\"Pap smear tests - FPAR 2.0 set\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "86662-4"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "Pap smear tests - FPAR 2.0 set",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "https://loinc.org/82457-3/",
-  "display" : "Date of Last HPV Test (LOINC)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code \"https://loinc.org/82457-3/\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#https://loinc.org/82457-3/) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "https://loinc.org/82457-3/"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code \"https://loinc.org/82457-3/\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#https://loinc.org/82457-3/) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "75197-4",
@@ -206,6 +8,158 @@ v: {
   "display" : "Syphilis treatment was given and treatment description [CDC.CS]",
   "severity" : "warning",
   "error" : "The display \"Recent syphilis treatment (LOINC)\" is not a valid display for the code {http://loinc.org}75197-4 - should be one of [\"Syphilis treatment was given and treatment description [CDC.CS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6626-1",
+        "display" : "Normal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:805c06ad-0d45-49bd-8232-added8f2f89b",
+    "timestamp" : "2020-03-20T04:01:54.408Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA6626-1",
+      "display" : "Normal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA17250-4",
+        "display" : "vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4e505bb3-a5e1-4e8d-a1c1-59edca4eda79",
+    "timestamp" : "2020-03-20T04:01:58.815Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA17250-4",
+      "display" : "vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6626-1",
+        "display" : "Normal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:bcdeaa10-9478-4c76-8f95-b410b1f5c997",
+    "timestamp" : "2020-03-20T04:02:08.518Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA6626-1",
+      "display" : "Normal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA17250-4",
+        "display" : "vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7f46121e-8664-4ab0-a738-d89dc192e9f8",
+    "timestamp" : "2020-03-20T04:02:12.877Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA17250-4",
+      "display" : "vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {

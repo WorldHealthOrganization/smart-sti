@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-sti-specimen",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-specimen",
+  "name": "who-sti-specimen",
+  "title": "who-sti-specimen",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-sti-specimen",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Specimen",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Specimen",
+        "path": "Specimen",
+        "mustSupport": false
+      },
+      {
+        "id": "Specimen.collection",
+        "path": "Specimen.collection",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

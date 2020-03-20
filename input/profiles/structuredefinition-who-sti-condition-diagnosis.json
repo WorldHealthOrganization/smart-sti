@@ -1,0 +1,69 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-sti-condition-diagnosis",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-condition-diagnosis",
+  "name": "who-sti-condition-diagnosis",
+  "title": "who-sti-condition-diagnosis",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-sti-condition-diagnosis",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition",
+        "path": "Condition",
+        "mustSupport": false
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.evidence.code",
+        "path": "Condition.evidence.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/method-of-diagnosis-values"
+        }
+      },
+      {
+        "id": "Condition.stage.summary",
+        "path": "Condition.stage.summary",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/stage-of-syphilis-condition-values"
+        }
+      }
+    ]
+  }
+}

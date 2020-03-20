@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-sti-observation-signs-of-shock",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-signs-of-shock",
+  "name": "who-sti-observation-signs-of-shock",
+  "title": "who-sti-observation-signs-of-shock",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-sti-observation-signs-of-shock",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 1,
+        "max": "1",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "r57.9",
+              "display": "Signs of shock (ICD-10-WHO)"
+            }
+          ]
+        },
+        "mustSupport": true
+      }
+    ]
+  }
+}

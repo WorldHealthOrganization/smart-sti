@@ -7,7 +7,7 @@
   "status": "draft",
   "experimental": false,
   "description": "who-sti-medicationstatement-current-medication",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "MedicationStatement",
@@ -21,16 +21,35 @@
         "mustSupport": false
       },
       {
+        "id": "MedicationStatement.extension:type-of-treatment",
+        "path": "MedicationStatement.extension",
+        "sliceName": "type-of-treatment",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/type-of-treatment"
+            ]
+          }
+        ]
+      },
+      {
         "id": "MedicationStatement.medication[x]",
         "path": "MedicationStatement.medication[x]",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/prescribed-drugs-values"
+        }
       }
     ]
   }

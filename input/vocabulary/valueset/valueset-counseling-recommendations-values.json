@@ -11,6 +11,15 @@
   "compose": {
     "include": [
       {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "provide partner treatment",
+            "display": "provide partner treatment"
+          }
+        ]
+      },
+      {
         "system": "http://snomed.info/sct",
         "concept": [
           {

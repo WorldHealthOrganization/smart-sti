@@ -169,8 +169,24 @@
         ]
       },
       {
-        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "system": "http://who.int/cg/CodeSystem/extended-content",
         "concept": [
+          {
+            "code": "Ulcer in reproductive tract",
+            "display": "Ulcer in reproductive tract"
+          },
+          {
+            "code": "Clusters of erythematous papules",
+            "display": "Clusters of erythematous papules"
+          },
+          {
+            "code": "Groin ulcer",
+            "display": "Groin ulcer"
+          },
+          {
+            "code": "Cervical infection",
+            "display": "Cervical infection"
+          },
           {
             "code": "Other",
             "display": "Other (specify)"

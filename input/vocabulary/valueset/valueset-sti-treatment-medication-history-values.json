@@ -11,7 +11,20 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "787481004",
+            "display": "None"
+          },
+          {
+            "code": "261665006",
+            "display": "Don't know"
+          }
+        ]
+      },
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
         "concept": [
           {
             "code": "Other",

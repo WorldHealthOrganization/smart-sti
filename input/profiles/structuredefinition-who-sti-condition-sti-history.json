@@ -1,0 +1,68 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-sti-condition-sti-history",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-condition-sti-history",
+  "name": "who-sti-condition-sti-history",
+  "title": "who-sti-condition-sti-history",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-sti-condition-sti-history",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition",
+        "path": "Condition",
+        "mustSupport": false
+      },
+      {
+        "id": "Condition.clinicalStatus",
+        "path": "Condition.clinicalStatus",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/clinical-status-values"
+        }
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.extension:sti-condition-type",
+        "path": "Condition.extension",
+        "sliceName": "sti-condition-type",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-condition-type"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
