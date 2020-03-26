@@ -42,11 +42,7 @@
             "code": "Annotation"
           }
         ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/other-specify-bimanual-exam-values"
-        }
+        "mustSupport": true
       },
       {
         "id": "Procedure.outcome",

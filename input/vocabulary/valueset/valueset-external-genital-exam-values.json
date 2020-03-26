@@ -1,0 +1,86 @@
+{
+  "resourceType": "ValueSet",
+  "id": "external-genital-exam-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/external-genital-exam-values",
+  "name": "external-genital-exam-values",
+  "title": "External genital exam values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the External genital exam element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "827038004",
+            "display": "Normal"
+          },
+          {
+            "code": "5089007",
+            "display": "Vulval discharge"
+          },
+          {
+            "code": "9957009",
+            "display": "Urethral discharge"
+          },
+          {
+            "code": "438457000",
+            "display": "Testicle swelling"
+          },
+          {
+            "code": "289485008",
+            "display": "Vulval Redness (erythema)"
+          },
+          {
+            "code": "274743004",
+            "display": "Groin swelling"
+          },
+          {
+            "code": "281398003",
+            "display": "Groin lumps"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "n89.8",
+            "display": "Vulval discharge"
+          },
+          {
+            "code": "N76.2 (acute vulvitis)",
+            "display": "Vulval discharge"
+          },
+          {
+            "code": "S30.826",
+            "display": "Blisters"
+          },
+          {
+            "code": "S30.825A",
+            "display": "Blisters"
+          }
+        ]
+      },
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "Ulcers",
+            "display": "Ulcers"
+          },
+          {
+            "code": "Sores",
+            "display": "Sores"
+          },
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

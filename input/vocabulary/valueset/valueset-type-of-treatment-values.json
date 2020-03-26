@@ -11,6 +11,23 @@
   "compose": {
     "include": [
       {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "dual therapy",
+            "display": "dual therapy"
+          },
+          {
+            "code": "single therapy",
+            "display": "single therapy"
+          },
+          {
+            "code": "WHO recommended therapy (not entered)",
+            "display": "WHO recommended therapy (not entered)"
+          }
+        ]
+      },
+      {
         "system": "http://snomed.info/sct",
         "concept": [
           {

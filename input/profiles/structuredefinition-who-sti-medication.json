@@ -21,9 +21,9 @@
         "mustSupport": false
       },
       {
-        "id": "Medication.extension:drug-warnings",
+        "id": "Medication.extension:warning",
         "path": "Medication.extension",
-        "sliceName": "drug-warnings",
+        "sliceName": "warning",
         "min": 0,
         "max": "1",
         "type": [

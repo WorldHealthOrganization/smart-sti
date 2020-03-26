@@ -1550,6 +1550,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 09-Mar 2020</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-411115002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=411115002\">411115002</a></td><td>Drug-device combination product</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255559005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255559005\">255559005</a></td><td>Intramuscular</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263887005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263887005\">263887005</a></td><td>Subcutaneous</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-385219001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385219001\">385219001</a></td><td>Injectable solution</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-63653004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=63653004\">63653004</a></td><td>Biomedical device</td><td/></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:83253816-9716-41a5-86b2-4d7b9246e1f5",
     "timestamp" : "2020-03-20T04:02:09.112Z",
@@ -1735,6 +1739,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 09-Mar 2020</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-39154008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=39154008\">39154008</a></td><td>Syndromic</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-15220000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15220000\">15220000</a></td><td>Laboratory testing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-405262001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=405262001\">405262001</a></td><td>Point-of-care rapid testing</td><td/></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:edd73bf4-c278-420b-b6f9-0c5f31f19245",
     "timestamp" : "2020-03-20T04:02:09.580Z",
@@ -1843,6 +1851,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 09-Mar 2020</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-261665006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=261665006\">261665006</a></td><td>Don't know</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10828004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10828004\">10828004</a></td><td>Positive</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260385009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260385009\">260385009</a></td><td>Negative</td><td/></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:9c3f85b9-4383-4163-b279-b8a7cdcfc720",
     "timestamp" : "2020-03-20T04:02:13.815Z",
@@ -1945,6 +1957,331 @@ v: {
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
 v: {
   "display" : "Spontaneous abortion",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "408365001",
+  "display" : "Need to contact partner (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 408365001 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "419822006",
+        "display" : "avoid alcohol with use"
+      },
+      {
+        "code" : "609496007",
+        "display" : "pregnancy warning"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:6f967abd-bd85-41ab-8e3b-7527f1fa25dc",
+    "timestamp" : "2020-03-24T21:55:49.018Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "419822006",
+      "display" : "avoid alcohol with use"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609496007",
+      "display" : "pregnancy warning"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "419822006",
+        "display" : "avoid alcohol with use"
+      },
+      {
+        "code" : "609496007",
+        "display" : "pregnancy warning"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 09-Mar 2020</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-419822006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419822006\">419822006</a></td><td>avoid alcohol with use</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-609496007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=609496007\">609496007</a></td><td>pregnancy warning</td><td/></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:db810fc9-93a0-40ce-821e-f4bf1ff9b714",
+    "timestamp" : "2020-03-24T21:55:53.675Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "419822006",
+      "display" : "avoid alcohol with use"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609496007",
+      "display" : "pregnancy warning"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "827038004",
+        "display" : "Normal"
+      },
+      {
+        "code" : "5089007",
+        "display" : "Vulval discharge"
+      },
+      {
+        "code" : "9957009",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "438457000",
+        "display" : "Testicle swelling"
+      },
+      {
+        "code" : "289485008",
+        "display" : "Vulval Redness (erythema)"
+      },
+      {
+        "code" : "274743004",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "281398003",
+        "display" : "Groin lumps"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:d65058f4-d9cd-460d-8c40-640388f0f39d",
+    "timestamp" : "2020-03-25T04:13:04.879Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "827038004",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5089007",
+      "display" : "Vulval discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9957009",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438457000",
+      "display" : "Testicle swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289485008",
+      "display" : "Vulval Redness (erythema)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274743004",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281398003",
+      "display" : "Groin lumps"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "827038004",
+        "display" : "Normal"
+      },
+      {
+        "code" : "5089007",
+        "display" : "Vulval discharge"
+      },
+      {
+        "code" : "9957009",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "438457000",
+        "display" : "Testicle swelling"
+      },
+      {
+        "code" : "289485008",
+        "display" : "Vulval Redness (erythema)"
+      },
+      {
+        "code" : "274743004",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "281398003",
+        "display" : "Groin lumps"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:3935b9ec-76f0-443a-9836-269d92507194",
+    "timestamp" : "2020-03-25T04:13:10.395Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "827038004",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5089007",
+      "display" : "Vulval discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9957009",
+      "display" : "Urethral discharge"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438457000",
+      "display" : "Testicle swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289485008",
+      "display" : "Vulval Redness (erythema)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "274743004",
+      "display" : "Groin swelling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281398003",
+      "display" : "Groin lumps"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "408565001",
+  "display" : "Need to contact partner (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Requires communication partner (finding)",
+  "severity" : "warning",
+  "error" : "The display \"Need to contact partner (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}408565001 - should be one of [\"Requires communication partner (finding)\",\"Requires communication partner\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "268947001",
+  "display" : "External genital exam (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "O/E - external female genitalia",
+  "severity" : "warning",
+  "error" : "The display \"External genital exam (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}268947001 - should be one of [\"O/E - external female genitalia\",\"On examination - external female genitalia (finding)\",\"On examination - external female genitalia\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "268947001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "O/E - external female genitalia",
   "severity" : null,
   "error" : ""
 }

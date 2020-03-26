@@ -21,9 +21,9 @@
         "mustSupport": false
       },
       {
-        "id": "MedicationStatement.extension:type-of-treatment",
+        "id": "MedicationStatement.extension:treatmentType",
         "path": "MedicationStatement.extension",
-        "sliceName": "type-of-treatment",
+        "sliceName": "treatmentType",
         "min": 0,
         "max": "1",
         "type": [

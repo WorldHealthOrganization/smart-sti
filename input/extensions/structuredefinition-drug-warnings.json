@@ -44,7 +44,11 @@
           {
             "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-warnings-values"
+        }
       }
     ]
   }

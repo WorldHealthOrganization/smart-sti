@@ -29,11 +29,23 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "Z72.5; Z72.51; Z72.52; Z72.53",
+              "code": "Z72.5",
               "display": "Increased risk of STIs (ICD-10-WHO)"
             }
           ]
         },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
         "mustSupport": true
       }
     ]

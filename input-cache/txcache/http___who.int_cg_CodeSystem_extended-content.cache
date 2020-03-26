@@ -167,3 +167,119 @@ v: {
   "error" : "The code system \"http://who.int/cg/CodeSystem/extended-content\" is not known (encountered paired with code = \"History of trauma\"); The code provided (http://who.int/cg/CodeSystem/extended-content#History of trauma) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "dual therapy",
+        "display" : "dual therapy"
+      },
+      {
+        "code" : "single therapy",
+        "display" : "single therapy"
+      },
+      {
+        "code" : "WHO recommended therapy (not entered)",
+        "display" : "WHO recommended therapy (not entered)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "infection",
+        "display" : "infection"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "dual therapy",
+        "display" : "dual therapy"
+      },
+      {
+        "code" : "single therapy",
+        "display" : "single therapy"
+      },
+      {
+        "code" : "WHO recommended therapy (not entered)",
+        "display" : "WHO recommended therapy (not entered)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Sores",
+        "display" : "Sores"
+      },
+      {
+        "code" : "Cervix bleeds easily when touched",
+        "display" : "Cervix bleeds easily when touched"
+      },
+      {
+        "code" : "Abnormal cervical tissue",
+        "display" : "Abnormal cervical tissue"
+      },
+      {
+        "code" : "Other",
+        "display" : "Other (specify)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Ulcers",
+        "display" : "Ulcers"
+      },
+      {
+        "code" : "Sores",
+        "display" : "Sores"
+      },
+      {
+        "code" : "Other",
+        "display" : "Other (specify)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------

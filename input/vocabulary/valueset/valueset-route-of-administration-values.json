@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "route-of-administration-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/route-of-administration-values",
+  "name": "route-of-administration-values",
+  "title": "Route of administration values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Route of administration element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "411115002",
+            "display": "Drug-device combination product"
+          },
+          {
+            "code": "255559005",
+            "display": "Intramuscular"
+          },
+          {
+            "code": "263887005",
+            "display": "Subcutaneous"
+          },
+          {
+            "code": "385219001",
+            "display": "Injectable solution"
+          },
+          {
+            "code": "63653004",
+            "display": "Biomedical device"
+          }
+        ]
+      }
+    ]
+  }
+}

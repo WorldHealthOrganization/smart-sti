@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "drug-warnings-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-warnings-values",
+  "name": "drug-warnings-values",
+  "title": "Drug warnings values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Drug warnings element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "419822006",
+            "display": "avoid alcohol with use"
+          },
+          {
+            "code": "609496007",
+            "display": "pregnancy warning"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "who-sti-observation-trauma-history",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-trauma-history",
-  "name": "who-sti-observation-trauma-history",
-  "title": "who-sti-observation-trauma-history",
+  "id": "who-sti-observation-external-genital-examination",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-external-genital-examination",
+  "name": "who-sti-observation-external-genital-examination",
+  "title": "who-sti-observation-external-genital-examination",
   "status": "draft",
   "experimental": false,
-  "description": "who-sti-observation-trauma-history",
+  "description": "who-sti-observation-external-genital-examination",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -28,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://who.int/cg/CodeSystem/extended-content",
-              "code": "History of trauma",
-              "display": "History of trauma (FHIR)"
+              "system": "http://snomed.info/sct",
+              "code": "268947001",
+              "display": "External genital exam (SNOMED-CT)"
             }
           ]
         },
@@ -43,7 +43,7 @@
         "max": "1",
         "type": [
           {
-            "code": "boolean"
+            "code": "string"
           }
         ],
         "mustSupport": true

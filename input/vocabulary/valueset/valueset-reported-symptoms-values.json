@@ -135,11 +135,31 @@
         "system": "http://hl7.org/fhir/sid/icd-10",
         "concept": [
           {
-            "code": "R10.2; R10.819; N94.89; N85.8; R10",
+            "code": "R10.2",
             "display": "Uterine tenderness"
           },
           {
-            "code": "N76.5;S30.824D",
+            "code": "R10.819",
+            "display": "Uterine tenderness"
+          },
+          {
+            "code": "N94.89",
+            "display": "Uterine tenderness"
+          },
+          {
+            "code": "N85.8",
+            "display": "Uterine tenderness"
+          },
+          {
+            "code": "R10",
+            "display": "Uterine tenderness"
+          },
+          {
+            "code": "N76.5",
+            "display": "Vesicles"
+          },
+          {
+            "code": "S30.824D",
             "display": "Vesicles"
           },
           {
@@ -155,7 +175,11 @@
             "display": "Groin lumps"
           },
           {
-            "code": "R19.09; R22.41",
+            "code": "R19.09",
+            "display": "Groin swelling"
+          },
+          {
+            "code": "R22.41",
             "display": "Groin swelling"
           },
           {

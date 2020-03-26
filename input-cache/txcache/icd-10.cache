@@ -412,3 +412,182 @@ v: {
   "error" : "Code \"r57.9\" not found; The code \"r57.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#r57.9) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5",
+  "display" : "Increased risk of STIs (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5\" not found; The code \"Z72.5\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "R10.2",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "R10.819",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "N94.89",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "N85.8",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "R10",
+        "display" : "Uterine tenderness"
+      },
+      {
+        "code" : "N76.5",
+        "display" : "Vesicles"
+      },
+      {
+        "code" : "S30.824D",
+        "display" : "Vesicles"
+      },
+      {
+        "code" : "Q53.9",
+        "display" : "Testis rotated or elevated"
+      },
+      {
+        "code" : "R36.9",
+        "display" : "Urethral discharge"
+      },
+      {
+        "code" : "R22",
+        "display" : "Groin lumps"
+      },
+      {
+        "code" : "R19.09",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "R22.41",
+        "display" : "Groin swelling"
+      },
+      {
+        "code" : "NEED VALUE SET",
+        "display" : "Anogenital sores"
+      },
+      {
+        "code" : "A63.0",
+        "display" : "Anogenital warts"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "A55",
+        "display" : "Lymphogranuloma venereum (LGV)"
+      },
+      {
+        "code" : "H10.9",
+        "display" : "conjunctivitis"
+      },
+      {
+        "code" : "A54.5",
+        "display" : "oropharyngeal infection"
+      },
+      {
+        "code" : "A54.31",
+        "display" : "Conjunctivitis"
+      },
+      {
+        "code" : "B00",
+        "display" : "Herpes simplex virus type 1 (HSV-1)"
+      },
+      {
+        "code" : "A60.00",
+        "display" : "Herpes simplex virus type 2 (HSV-2)"
+      },
+      {
+        "code" : "A60.09",
+        "display" : "Herpes simplex virus type 2 (HSV-2)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "n89.8",
+        "display" : "Vulval discharge"
+      },
+      {
+        "code" : "N76.2 (acute vulvitis)",
+        "display" : "Vulval discharge"
+      },
+      {
+        "code" : "S30.826",
+        "display" : "Blisters"
+      },
+      {
+        "code" : "S30.825A",
+        "display" : "Blisters"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z11.51",
+        "display" : "Human papillomavirus screen"
+      },
+      {
+        "code" : "Z11.18",
+        "display" : "Chlamydia screen"
+      },
+      {
+        "code" : "Z11.3",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "Z11.4",
+        "display" : "HIV test"
+      },
+      {
+        "code" : "Z11.8",
+        "display" : "Syphilis screen"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------

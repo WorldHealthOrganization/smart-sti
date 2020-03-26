@@ -172,3 +172,353 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "74247-8",
+        "display" : "Herpes simplex viruses screen"
+      },
+      {
+        "code" : "86658-2",
+        "display" : "Human papillomavirus screen"
+      },
+      {
+        "code" : "LP 1441306",
+        "display" : "Trichomoniasis screen"
+      },
+      {
+        "code" : "LP6760-5",
+        "display" : "Trichomoniasis screen"
+      },
+      {
+        "code" : "LG34164-0",
+        "display" : "Trichomoniasis screen"
+      },
+      {
+        "code" : "86659-0",
+        "display" : "Chlamydia screen"
+      },
+      {
+        "code" : "86661-6",
+        "display" : "Chlamydia screen"
+      },
+      {
+        "code" : "86660-8",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "86661-6",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "LP74080-0",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "20507-0",
+        "display" : "Syphilis screen"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:0091c8ee-d8de-40f1-91b9-82862133b9a8",
+    "timestamp" : "2020-03-25T04:13:06.317Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "74247-8",
+      "display" : "Herpes simplex viruses screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86658-2",
+      "display" : "Human papillomavirus screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP 1441306",
+      "display" : "Trichomoniasis screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP6760-5",
+      "display" : "Trichomoniasis screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LG34164-0",
+      "display" : "Trichomoniasis screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86659-0",
+      "display" : "Chlamydia screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86661-6",
+      "display" : "Chlamydia screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86660-8",
+      "display" : "Gonorrhoea screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86661-6",
+      "display" : "Gonorrhoea screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP74080-0",
+      "display" : "Gonorrhoea screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "20507-0",
+      "display" : "Syphilis screen"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "74247-8",
+        "display" : "Herpes simplex viruses screen"
+      },
+      {
+        "code" : "86658-2",
+        "display" : "Human papillomavirus screen"
+      },
+      {
+        "code" : "LP 1441306",
+        "display" : "Trichomoniasis screen"
+      },
+      {
+        "code" : "LP6760-5",
+        "display" : "Trichomoniasis screen"
+      },
+      {
+        "code" : "LG34164-0",
+        "display" : "Trichomoniasis screen"
+      },
+      {
+        "code" : "86659-0",
+        "display" : "Chlamydia screen"
+      },
+      {
+        "code" : "86661-6",
+        "display" : "Chlamydia screen"
+      },
+      {
+        "code" : "86660-8",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "86661-6",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "LP74080-0",
+        "display" : "Gonorrhoea screen"
+      },
+      {
+        "code" : "20507-0",
+        "display" : "Syphilis screen"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:27ea7d98-1543-4a30-a1f4-82a843794b24",
+    "timestamp" : "2020-03-25T04:13:11.192Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "74247-8",
+      "display" : "Herpes simplex viruses screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86658-2",
+      "display" : "Human papillomavirus screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP 1441306",
+      "display" : "Trichomoniasis screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP6760-5",
+      "display" : "Trichomoniasis screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LG34164-0",
+      "display" : "Trichomoniasis screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86659-0",
+      "display" : "Chlamydia screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86661-6",
+      "display" : "Chlamydia screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86660-8",
+      "display" : "Gonorrhoea screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "86661-6",
+      "display" : "Gonorrhoea screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP74080-0",
+      "display" : "Gonorrhoea screen"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "20507-0",
+      "display" : "Syphilis screen"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6626-1",
+        "display" : "Normal"
+      },
+      {
+        "code" : "LA17250-4",
+        "display" : "vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:bd050173-783b-4203-ba0d-88ea86e3073c",
+    "timestamp" : "2020-03-26T03:22:04.847Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA6626-1",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA17250-4",
+      "display" : "vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6626-1",
+        "display" : "Normal"
+      },
+      {
+        "code" : "LA17250-4",
+        "display" : "vaginal bleeding"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:f2906829-045c-4f77-895a-6575c992b03e",
+    "timestamp" : "2020-03-26T03:22:11.801Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA6626-1",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA17250-4",
+      "display" : "vaginal bleeding"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

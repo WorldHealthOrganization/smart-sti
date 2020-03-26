@@ -51,8 +51,21 @@
             "display": "Herpes simplex virus type 1 (HSV-1)"
           },
           {
-            "code": "A60.00; A60.09",
+            "code": "A60.00",
             "display": "Herpes simplex virus type 2 (HSV-2)"
+          },
+          {
+            "code": "A60.09",
+            "display": "Herpes simplex virus type 2 (HSV-2)"
+          }
+        ]
+      },
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "infection",
+            "display": "infection"
           }
         ]
       }

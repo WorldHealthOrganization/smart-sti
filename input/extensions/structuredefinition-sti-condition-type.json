@@ -19,7 +19,16 @@
         "path": "Extension",
         "short": "STI Condition type",
         "min": 0,
-        "max": "1"
+        "max": "1",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://who.int/cg/CodeSystem/extended-content",
+              "code": "STI Condition type",
+              "display": "STI Condition type (FHIR)"
+            }
+          ]
+        }
       },
       {
         "id": "Extension.extension",
@@ -41,7 +50,11 @@
           {
             "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-condition-type-values"
+        }
       }
     ]
   }

@@ -36,6 +36,27 @@
         ]
       },
       {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "Sores",
+            "display": "Sores"
+          },
+          {
+            "code": "Cervix bleeds easily when touched",
+            "display": "Cervix bleeds easily when touched"
+          },
+          {
+            "code": "Abnormal cervical tissue",
+            "display": "Abnormal cervical tissue"
+          },
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      },
+      {
         "system": "http://snomed.info/sct",
         "concept": [
           {
@@ -77,15 +98,6 @@
           {
             "code": "43478001",
             "display": "Abdominal tenderness"
-          }
-        ]
-      },
-      {
-        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
-        "concept": [
-          {
-            "code": "Other",
-            "display": "Other (specify)"
           }
         ]
       }

@@ -49,9 +49,9 @@
         "mustSupport": true
       },
       {
-        "id": "Condition.extension:sti-condition-type",
+        "id": "Condition.extension:STIConditionType",
         "path": "Condition.extension",
-        "sliceName": "sti-condition-type",
+        "sliceName": "STIConditionType",
         "min": 0,
         "max": "1",
         "type": [

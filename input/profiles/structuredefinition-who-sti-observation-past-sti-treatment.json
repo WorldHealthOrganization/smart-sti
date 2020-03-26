@@ -21,18 +21,6 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 0,
