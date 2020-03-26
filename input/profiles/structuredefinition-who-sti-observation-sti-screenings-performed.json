@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "who-sti-observation-external-genital-examination",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-external-genital-examination",
-  "name": "who-sti-observation-external-genital-examination",
-  "title": "who-sti-observation-external-genital-examination",
+  "id": "who-sti-observation-sti-screenings-performed",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-sti-screenings-performed",
+  "name": "who-sti-observation-sti-screenings-performed",
+  "title": "who-sti-observation-sti-screenings-performed",
   "status": "draft",
   "experimental": false,
-  "description": "who-sti-observation-external-genital-examination",
+  "description": "who-sti-observation-sti-screenings-performed",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -28,12 +28,24 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://snomed.info/sct",
-              "code": "268947001",
-              "display": "External genital exam (SNOMED-CT)"
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "Z11.3",
+              "display": "STI Screenings performed (ICD-10-WHO)"
             }
           ]
         },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -52,7 +64,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/external-genital-exam-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-screenings-performed-values"
         }
       }
     ]

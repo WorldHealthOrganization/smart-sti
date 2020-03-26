@@ -38,7 +38,11 @@
             "display": "Toxic shock syndrome"
           },
           {
-            "code": "N39; Z87.440",
+            "code": "N39",
+            "display": "Urinary tract infection"
+          },
+          {
+            "code": "Z87.440",
             "display": "Urinary tract infection"
           }
         ]
@@ -55,7 +59,15 @@
             "display": "Syphilis"
           },
           {
-            "code": "33839006; 40745002; 402894005",
+            "code": "33839006",
+            "display": "Genital herpes"
+          },
+          {
+            "code": "40745002",
+            "display": "Genital herpes"
+          },
+          {
+            "code": "402894005",
             "display": "Genital herpes"
           },
           {
@@ -105,11 +117,19 @@
           {
             "code": "240532009",
             "display": "Human papillomavirus (HPV)"
+          },
+          {
+            "code": "264037006",
+            "display": "Inguinal bubo"
+          },
+          {
+            "code": "11585000",
+            "display": "Femoral bubo"
           }
         ]
       },
       {
-        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "system": "http://who.int/cg/CodeSystem/extended-content",
         "concept": [
           {
             "code": "Other",

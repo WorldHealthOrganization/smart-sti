@@ -30,11 +30,7 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-treatment-medication-history-values"
-        }
+        "mustSupport": true
       }
     ]
   }

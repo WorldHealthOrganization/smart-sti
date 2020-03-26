@@ -18,12 +18,24 @@
             "display": "dual therapy"
           },
           {
+            "code": "episodic therapy",
+            "display": "episodic therapy"
+          },
+          {
             "code": "single therapy",
             "display": "single therapy"
           },
           {
             "code": "WHO recommended therapy (not entered)",
             "display": "WHO recommended therapy (not entered)"
+          },
+          {
+            "code": "suppressive therapy",
+            "display": "suppressive therapy"
+          },
+          {
+            "code": "application",
+            "display": "application"
           }
         ]
       },
