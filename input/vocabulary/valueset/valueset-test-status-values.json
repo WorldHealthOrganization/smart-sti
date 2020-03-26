@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "test-status-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/test-status-values",
+  "name": "test-status-values",
+  "title": "Test status values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Test status element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/observation-status",
+        "concept": [
+          {
+            "code": "final",
+            "display": "Performed"
+          },
+          {
+            "code": "registered",
+            "display": "Ordered"
+          },
+          {
+            "code": "final",
+            "display": "Completed"
+          }
+        ]
+      }
+    ]
+  }
+}
