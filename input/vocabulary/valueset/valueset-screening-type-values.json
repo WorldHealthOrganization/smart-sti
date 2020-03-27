@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "screening-type-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/screening-type-values",
+  "name": "screening-type-values",
+  "title": "Screening type values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Screening type element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "CT Screen",
+            "display": "CT Screen"
+          },
+          {
+            "code": "GC Screen",
+            "display": "GC Screen"
+          },
+          {
+            "code": "Cervical Cancer Screen",
+            "display": "Cervical Cancer Screen"
+          },
+          {
+            "code": "HPV Test",
+            "display": "HPV Test"
+          },
+          {
+            "code": "HIV Screen",
+            "display": "HIV Screen"
+          }
+        ]
+      }
+    ]
+  }
+}
