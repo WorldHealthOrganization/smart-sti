@@ -11,9 +11,3 @@ This implementation guide provides guidance that is derived from the following W
   * [Comprehensive cervical cancer control: A guide to essential practice - Second edition](https://www.who.int/reproductivehealth/publications/cancers/cervical-cancer-guide/en/)
 
 Note that the content of this implementation guide is draft material that has not yet been tested or validated for use in production environments.
-
-### Scope
-TODO
-
-### Getting Started
-TODO
