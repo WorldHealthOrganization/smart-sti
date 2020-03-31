@@ -18,30 +18,30 @@
       {
         "id": "Procedure",
         "path": "Procedure",
+        "short": "Other (specify)",
         "mustSupport": false
       },
       {
         "id": "Procedure.code",
         "path": "Procedure.code",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/clinical-exam-type-values"
+        }
       },
       {
-        "id": "Procedure.note",
-        "path": "Procedure.note",
+        "id": "Procedure.code.text",
+        "path": "Procedure.code.text",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "Annotation"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -56,9 +56,16 @@
         ],
         "mustSupport": true,
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/bimanual-exam-values"
         }
+      },
+      {
+        "id": "Procedure.outcome.text",
+        "path": "Procedure.outcome.text",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
       }
     ]
   }

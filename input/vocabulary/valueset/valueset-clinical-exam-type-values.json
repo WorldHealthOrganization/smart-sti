@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "clinical-exam-type-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/clinical-exam-type-values",
+  "name": "clinical-exam-type-values",
+  "title": "Clinical exam type values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Clinical exam type element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "268947001",
+            "display": "External genital examination"
+          },
+          {
+            "code": "163412002",
+            "display": "speculem evaluation"
+          },
+          {
+            "code": "241598003",
+            "display": "bimanual evaluation"
+          }
+        ]
+      },
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other (specify)"
+          }
+        ]
+      }
+    ]
+  }
+}

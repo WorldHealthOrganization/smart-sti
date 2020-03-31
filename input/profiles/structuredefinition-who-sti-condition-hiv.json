@@ -18,6 +18,8 @@
       {
         "id": "Condition",
         "path": "Condition",
+        "label": "hiv_diagnosis_date",
+        "short": "HIV diagnosis date",
         "mustSupport": false
       },
       {
@@ -35,6 +37,13 @@
       {
         "id": "Condition.onset[x]",
         "path": "Condition.onset[x]",
+        "code": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "165816005",
+            "display": "HIV diagnosis date (SNOMED-CT)"
+          }
+        ],
         "min": 0,
         "max": "1",
         "type": [

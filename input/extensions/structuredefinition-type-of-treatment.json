@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "type-of-treatment",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/type-of-treatment",
-  "name": "Type of treatment",
   "title": "Type of treatment",
   "status": "draft",
   "experimental": false,

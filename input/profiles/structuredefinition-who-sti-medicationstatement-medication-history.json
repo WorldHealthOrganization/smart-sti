@@ -18,6 +18,7 @@
       {
         "id": "MedicationStatement",
         "path": "MedicationStatement",
+        "short": "STI treatment medication history",
         "mustSupport": false
       },
       {

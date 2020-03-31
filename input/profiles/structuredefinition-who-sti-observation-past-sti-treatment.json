@@ -18,6 +18,7 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "STI Treatment date",
         "mustSupport": false
       },
       {

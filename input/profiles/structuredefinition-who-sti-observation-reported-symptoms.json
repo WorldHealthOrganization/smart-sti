@@ -18,6 +18,7 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "Reported symptoms",
         "mustSupport": false
       },
       {
@@ -35,7 +36,7 @@
         ],
         "mustSupport": true,
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/reported-symptoms-values"
         }
       }

@@ -18,27 +18,19 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "Exposed to a communicable disease",
         "mustSupport": false
-      },
-      {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "min": 1,
-        "max": "1",
-        "fixedCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "444451006",
-              "display": "Exposed to a communicable disease (SNOMED-CT)"
-            }
-          ]
-        },
-        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "code": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "444451006",
+            "display": "Exposed to a communicable disease (SNOMED-CT)"
+          }
+        ],
         "min": 0,
         "max": "1",
         "type": [

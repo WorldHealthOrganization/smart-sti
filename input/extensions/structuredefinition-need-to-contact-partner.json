@@ -2,8 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "need-to-contact-partner",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/need-to-contact-partner",
-  "name": "Need to contact partner",
-  "title": "Need to contact partner",
+  "title": "Contacting of partner",
   "status": "draft",
   "experimental": false,
   "description": "Whether partner needs to be contacted",
@@ -18,7 +17,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Need to contact partner",
+        "short": "Contacting of partner",
         "definition": "Whether partner needs to be contacted",
         "min": 0,
         "max": "1",

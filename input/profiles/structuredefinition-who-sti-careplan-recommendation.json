@@ -18,6 +18,7 @@
       {
         "id": "CarePlan",
         "path": "CarePlan",
+        "short": "Other (specify)",
         "mustSupport": false
       },
       {
@@ -56,12 +57,23 @@
         "id": "CarePlan.activity.detail.reasonCode",
         "path": "CarePlan.activity.detail.reasonCode",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "CodeableConcept"
           }
         ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-treatment-recommendation-values"
+        }
+      },
+      {
+        "id": "CarePlan.activity.detail.reasonCode.text",
+        "path": "CarePlan.activity.detail.reasonCode.text",
+        "min": 0,
+        "max": "1",
         "mustSupport": true
       },
       {

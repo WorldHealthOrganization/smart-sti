@@ -18,6 +18,7 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "Signs of fever",
         "mustSupport": false
       },
       {

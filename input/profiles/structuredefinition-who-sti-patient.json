@@ -18,6 +18,7 @@
       {
         "id": "Patient",
         "path": "Patient",
+        "short": "Contacting of partner",
         "mustSupport": false
       },
       {

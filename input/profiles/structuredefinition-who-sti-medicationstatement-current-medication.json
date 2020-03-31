@@ -18,6 +18,7 @@
       {
         "id": "MedicationStatement",
         "path": "MedicationStatement",
+        "short": "Prescribed drugs",
         "mustSupport": false
       },
       {
@@ -47,7 +48,7 @@
         ],
         "mustSupport": true,
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-medications-values"
         }
       }

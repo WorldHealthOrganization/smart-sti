@@ -18,6 +18,7 @@
       {
         "id": "MedicationAdministration",
         "path": "MedicationAdministration",
+        "short": "Route of adminstration",
         "mustSupport": false
       },
       {

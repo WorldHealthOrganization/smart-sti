@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "partner-communication-consent",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/partner-communication-consent",
-  "name": "Partner communication consent",
   "title": "Partner communication consent",
   "status": "draft",
   "experimental": false,

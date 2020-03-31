@@ -18,6 +18,7 @@
       {
         "id": "Medication",
         "path": "Medication",
+        "short": "Drug warnings",
         "mustSupport": false
       },
       {

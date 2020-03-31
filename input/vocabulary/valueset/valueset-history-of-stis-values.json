@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "history-of-stis-values",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/history-of-stis-values",
+  "name": "history-of-stis-values",
+  "title": "History of STIs values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the History of STIs element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "472954000",
+            "display": "Chlamydia"
+          },
+          {
+            "code": "1087151000119108",
+            "display": "Syphilis"
+          },
+          {
+            "code": "88594005",
+            "display": "Herpes simplex viruses"
+          },
+          {
+            "code": "419760006",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "105648001",
+            "display": "Trichomoniasis"
+          },
+          {
+            "code": "444395001",
+            "display": "Anaerobic infection"
+          },
+          {
+            "code": "198130006",
+            "display": "Pelvic Inflammatory Disease"
+          },
+          {
+            "code": "240542006",
+            "display": "Anogenital warts"
+          },
+          {
+            "code": "18504008",
+            "display": "Toxic shock syndrome"
+          },
+          {
+            "code": "9482002",
+            "display": "Human papillomavirus"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "A54.9",
+            "display": "Gonorrhea"
+          },
+          {
+            "code": "B37",
+            "display": "Yeast infection"
+          },
+          {
+            "code": "N72",
+            "display": "Cervical infection"
+          },
+          {
+            "code": "A63.0",
+            "display": "Anogenital warts"
+          }
+        ]
+      }
+    ]
+  }
+}

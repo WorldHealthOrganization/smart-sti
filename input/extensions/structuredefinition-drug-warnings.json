@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "drug-warnings",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/drug-warnings",
-  "name": "Drug warnings",
   "title": "Drug warnings",
   "status": "draft",
   "experimental": false,
