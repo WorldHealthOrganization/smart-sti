@@ -26,11 +26,6 @@
         "path": "CarePlan.activity",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "BackboneElement"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -42,11 +37,6 @@
         "path": "CarePlan.activity.detail.code",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -58,11 +48,6 @@
         "path": "CarePlan.activity.detail.reasonCode",
         "min": 0,
         "max": "*",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
@@ -81,11 +66,6 @@
         "path": "CarePlan.description",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "required",

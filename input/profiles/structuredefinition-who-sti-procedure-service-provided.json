@@ -26,11 +26,6 @@
         "path": "Procedure.code",
         "min": 0,
         "max": "*",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
@@ -49,11 +44,6 @@
         "path": "Procedure.outcome",
         "min": 0,
         "max": "*",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "extensible",

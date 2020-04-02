@@ -26,11 +26,6 @@
         "path": "Communication.medium",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -38,11 +33,6 @@
         "path": "Communication.note",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "Annotation"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -50,11 +40,6 @@
         "path": "Communication.recipient",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "Reference"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -62,11 +47,6 @@
         "path": "Communication.sent",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -74,11 +54,6 @@
         "path": "Communication.status",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
         "mustSupport": true
       },
       {
@@ -86,11 +61,6 @@
         "path": "Communication.statusReason",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true
       }
     ]
