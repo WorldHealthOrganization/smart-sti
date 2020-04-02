@@ -32,6 +32,18 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "MedicationStatement.medication[x].text",
+        "path": "MedicationStatement.medication[x].text",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

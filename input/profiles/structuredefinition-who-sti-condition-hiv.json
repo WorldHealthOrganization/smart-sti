@@ -35,7 +35,7 @@
         "code": [
           {
             "system": "http://snomed.info/sct",
-            "code": "165816005",
+            "code": "365866002",
             "display": "HIV diagnosis date (SNOMED-CT)"
           }
         ],
