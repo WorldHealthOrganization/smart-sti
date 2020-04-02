@@ -31,6 +31,15 @@
             "code": "CodeableConcept"
           }
         ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://who.int/cg/CodeSystem/extended-content",
+              "code": "Screening Result",
+              "display": "Screening Result (FHIR)"
+            }
+          ]
+        },
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
