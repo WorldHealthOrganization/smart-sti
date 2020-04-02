@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "need-to-contact-partner",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/need-to-contact-partner",
-  "title": "Contacting of partner",
+  "id": "sticonditiontype",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sticonditiontype",
+  "name": "STIConditionType",
+  "title": "Condition type",
   "status": "draft",
   "experimental": false,
-  "description": "Whether partner needs to be contacted",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -17,16 +17,16 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Contacting of partner",
-        "definition": "Whether partner needs to be contacted",
+        "label": "The type of diagnosis, such as genital or anorectal",
+        "short": "Condition type",
         "min": 0,
         "max": "1",
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://snomed.info/sct",
-              "code": "408565001",
-              "display": "Need to contact partner (SNOMED-CT)"
+              "system": "http://who.int/cg/CodeSystem/extended-content",
+              "code": "STI Condition type",
+              "display": "STI Condition type (FHIR)"
             }
           ]
         }
@@ -40,19 +40,22 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/need-to-contact-partner"
+        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sticonditiontype"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "short": "Need to contact partner",
-        "definition": "Whether partner needs to be contacted",
+        "short": "STI Condition type",
         "min": 1,
         "type": [
           {
-            "code": "boolean"
+            "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-condition-type-values"
+        }
       }
     ]
   }

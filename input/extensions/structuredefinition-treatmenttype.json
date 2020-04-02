@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "sti-condition-type",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-condition-type",
-  "name": "The type of diagnosis, such as genital or anorectal",
-  "title": "Condition type",
+  "id": "treatmenttype",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/treatmenttype",
+  "name": "treatmentType",
+  "title": "Type of treatment",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -17,16 +17,15 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "label": "The type of diagnosis, such as genital or anorectal",
-        "short": "Condition type",
+        "short": "Type of treatment",
         "min": 0,
         "max": "1",
         "fixedCodeableConcept": {
           "coding": [
             {
               "system": "http://who.int/cg/CodeSystem/extended-content",
-              "code": "STI Condition type",
-              "display": "STI Condition type (FHIR)"
+              "code": "Type of treatment",
+              "display": "Type of treatment (FHIR)"
             }
           ]
         }
@@ -40,12 +39,12 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sti-condition-type"
+        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/treatmenttype"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "short": "STI Condition type",
+        "short": "Type of treatment",
         "min": 1,
         "type": [
           {
@@ -54,7 +53,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-condition-type-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/type-of-treatment-values"
         }
       }
     ]

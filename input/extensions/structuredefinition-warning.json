@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "partner-communication-consent",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/partner-communication-consent",
-  "title": "Partner communication consent",
+  "id": "warning",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/warning",
+  "name": "warning",
+  "title": "Drug warnings",
   "status": "draft",
   "experimental": false,
-  "description": "Agreement by client to record and communicate with past or current partners",
+  "description": "[System]",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -17,8 +18,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Partner communication consent",
-        "definition": "Agreement by client to record and communicate with past or current partners",
+        "short": "Drug warnings",
+        "definition": "[System]",
         "min": 0,
         "max": "1"
       },
@@ -31,19 +32,23 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/partner-communication-consent"
+        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/warning"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "short": "Partner communication consent",
-        "definition": "Agreement by client to record and communicate with past or current partners",
+        "short": "Drug warnings",
+        "definition": "[System]",
         "min": 1,
         "type": [
           {
-            "code": "boolean"
+            "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-warnings-values"
+        }
       }
     ]
   }
