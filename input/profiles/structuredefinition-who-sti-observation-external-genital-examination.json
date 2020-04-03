@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-external-genital-examination",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-external-genital-examination",
-  "title": "Other (specify)",
+  "name": "WHO-STI Observation (External Genital Examination)",
+  "title": "WHO-STI Observation (External Genital Examination)",
   "status": "draft",
   "experimental": false,
   "description": "Write in other observations not included in the list",
@@ -37,14 +38,11 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
-          {
-            "code": "string"
-          },
           {
             "code": "CodeableConcept"
           }
@@ -54,6 +52,18 @@
           "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/external-genital-exam-values"
         }
+      },
+      {
+        "id": "Observation.valuestring",
+        "path": "Observation.valuestring",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

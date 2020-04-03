@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-medicationstatement-current-medication",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medicationstatement-current-medication",
-  "title": "Prescribed drugs",
+  "name": "WHO-STI MedicationStatement (Current Medication)",
+  "title": "WHO-STI MedicationStatement (Current Medication)",
   "status": "draft",
   "experimental": false,
   "description": "Drugs prescribed to treat the diagnosis ",
@@ -36,8 +37,8 @@
         ]
       },
       {
-        "id": "MedicationStatement.medication[x]",
-        "path": "MedicationStatement.medication[x]",
+        "id": "MedicationStatement.medicationCodeableConcept",
+        "path": "MedicationStatement.medicationCodeableConcept",
         "min": 0,
         "max": "*",
         "type": [

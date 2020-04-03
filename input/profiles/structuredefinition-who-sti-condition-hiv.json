@@ -2,8 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-condition-hiv",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-condition-hiv",
-  "name": "hiv_diagnosis_date",
-  "title": "HIV diagnosis date",
+  "name": "WHO-STI Condition (HIV)",
+  "title": "WHO-STI Condition (HIV)",
   "status": "draft",
   "experimental": false,
   "description": "If woman knows she's HIV+, record the date of her diagnosis.",
@@ -25,13 +25,20 @@
       {
         "id": "Condition.code",
         "path": "Condition.code",
+        "code": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "365866002",
+            "display": "Calculation - HIV Positive (SNOMED-CT)"
+          }
+        ],
         "min": 0,
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Condition.onset[x]",
-        "path": "Condition.onset[x]",
+        "id": "Condition.onsetdateTime",
+        "path": "Condition.onsetdateTime",
         "code": [
           {
             "system": "http://snomed.info/sct",

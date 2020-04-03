@@ -3,7 +3,7 @@
   "id": "sticonditiontype",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sticonditiontype",
   "name": "STIConditionType",
-  "title": "Condition type",
+  "title": "STI Condition type",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",

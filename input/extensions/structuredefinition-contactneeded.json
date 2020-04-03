@@ -3,7 +3,7 @@
   "id": "contactneeded",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/contactneeded",
   "name": "contactNeeded",
-  "title": "Contacting of partner",
+  "title": "Need to contact partner",
   "status": "draft",
   "experimental": false,
   "description": "Whether partner needs to be contacted",

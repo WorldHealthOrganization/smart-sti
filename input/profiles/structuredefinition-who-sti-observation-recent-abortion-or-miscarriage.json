@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-recent-abortion-or-miscarriage",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-recent-abortion-or-miscarriage",
-  "title": "Recent abortion or miscarriage",
+  "name": "WHO-STI Observation (Recent Abortion or Miscarriage)",
+  "title": "WHO-STI Observation (Recent Abortion or Miscarriage)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -36,8 +37,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
         "code": [
           {
             "system": "http://snomed.info/sct",

@@ -2,8 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-speculum-examination",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-speculum-examination",
-  "name": "Findings from the speculem exam",
-  "title": "Speculum",
+  "name": "WHO-STI Observation (Speculum Examination)",
+  "title": "WHO-STI Observation (Speculum Examination)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -38,16 +38,13 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "*",
         "type": [
           {
             "code": "CodeableConcept"
-          },
-          {
-            "code": "string"
           }
         ],
         "mustSupport": true,
@@ -55,6 +52,18 @@
           "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/speculum-exam-results-values"
         }
+      },
+      {
+        "id": "Observation.valuestring",
+        "path": "Observation.valuestring",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

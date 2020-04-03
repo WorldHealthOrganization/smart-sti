@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-past-sti-treatment",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-past-sti-treatment",
-  "title": "STI Treatment date",
+  "name": "WHO-STI Observation (Past STI Treatment)",
+  "title": "WHO-STI Observation (Past STI Treatment)",
   "status": "draft",
   "experimental": false,
   "description": "Approximate date if client reports having had treatment for an STI previously",
@@ -21,16 +22,25 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.valuedateTime",
+        "path": "Observation.valuedateTime",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "dateTime"
-          },
-          {
-            "code": "boolean"
           }
         ],
         "mustSupport": true

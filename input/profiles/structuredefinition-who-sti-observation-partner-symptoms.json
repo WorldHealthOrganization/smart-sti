@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-partner-symptoms",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-partner-symptoms",
-  "title": "Partner has symptoms",
+  "name": "WHO-STI Observation (Partner Symptoms)",
+  "title": "WHO-STI Observation (Partner Symptoms)",
   "status": "draft",
   "experimental": false,
   "description": "Whether the client's partner has reported similar symptoms",
@@ -37,8 +38,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
         "code": [
           {
             "system": "http://who.int/cg/CodeSystem/extended-content",

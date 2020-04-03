@@ -1,12 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "who-sti-observation-partner-hiv-status",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-partner-hiv-status",
-  "name": "WHO-STI Observation (Partner HIV Status)",
-  "title": "WHO-STI Observation (Partner HIV Status)",
+  "id": "who-sti-observation-syphilis-stage",
+  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-syphilis-stage",
+  "name": "WHO-STI Observation (Syphilis Stage)",
+  "title": "WHO-STI Observation (Syphilis Stage)",
   "status": "draft",
   "experimental": false,
-  "description": "The HIV status of the woman's partner.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -18,7 +17,8 @@
       {
         "id": "Observation",
         "path": "Observation",
-        "short": "Partner HIV status",
+        "short": "Stage of condition",
+        "comment": "DL Treatment Recs",
         "mustSupport": false
       },
       {
@@ -30,8 +30,8 @@
           "coding": [
             {
               "system": "http://who.int/cg/CodeSystem/extended-content",
-              "code": "Partner HIV status",
-              "display": "Partner HIV status (FHIR)"
+              "code": "Syphilis Stage",
+              "display": "Stage of Syphilis condition (FHIR)"
             }
           ]
         },
@@ -50,7 +50,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/partner-hiv-status-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/stage-of-syphilis-condition-values"
         }
       }
     ]

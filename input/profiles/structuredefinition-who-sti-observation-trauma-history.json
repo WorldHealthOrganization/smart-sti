@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-trauma-history",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-trauma-history",
-  "title": "History of trauma",
+  "name": "WHO-STI Observation (Trauma History)",
+  "title": "WHO-STI Observation (Trauma History)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -36,8 +37,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
         "code": [
           {
             "system": "http://who.int/cg/CodeSystem/extended-content",

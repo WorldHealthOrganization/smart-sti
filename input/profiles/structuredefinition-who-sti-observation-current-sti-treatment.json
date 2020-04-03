@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-current-sti-treatment",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-current-sti-treatment",
-  "title": "Current STI Treatment",
+  "name": "WHO-STI Observation (Current STI Treatment)",
+  "title": "WHO-STI Observation (Current STI Treatment)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -37,8 +38,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
         "code": [
           {
             "system": "http://hl7.org/fhir/sid/icd-10",

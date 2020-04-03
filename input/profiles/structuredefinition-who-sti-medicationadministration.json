@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-medicationadministration",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medicationadministration",
-  "title": "Route of adminstration",
+  "name": "WHO-STI MedicationAdministration",
+  "title": "WHO-STI MedicationAdministration",
   "status": "draft",
   "experimental": false,
   "description": "How the medication is administered",
@@ -39,8 +40,8 @@
         }
       },
       {
-        "id": "MedicationAdministration.effective[x]",
-        "path": "MedicationAdministration.effective[x]",
+        "id": "MedicationAdministration.effectivedateTime",
+        "path": "MedicationAdministration.effectivedateTime",
         "min": 0,
         "max": "1",
         "type": [

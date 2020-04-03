@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-increased-sti-risk",
   "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-increased-sti-risk",
-  "title": "Increased risk of STIs",
+  "name": "WHO-STI Observation (Increased STI Risk)",
+  "title": "WHO-STI Observation (Increased STI Risk)",
   "status": "draft",
   "experimental": false,
   "description": "At a high risk for STIs based on a risk assessment",
@@ -37,8 +38,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
         "code": [
           {
             "system": "http://hl7.org/fhir/sid/icd-10",
