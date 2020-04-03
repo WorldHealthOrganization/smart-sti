@@ -34,8 +34,8 @@
         "mustSupport": true
       },
       {
-        "id": "MedicationStatement.medicationstring.text",
-        "path": "MedicationStatement.medicationstring.text",
+        "id": "MedicationStatement.medicationString.text",
+        "path": "MedicationStatement.medicationString.text",
         "min": 0,
         "max": "1",
         "type": [

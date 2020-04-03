@@ -40,8 +40,8 @@
         }
       },
       {
-        "id": "MedicationAdministration.effectivedateTime",
-        "path": "MedicationAdministration.effectivedateTime",
+        "id": "MedicationAdministration.effectiveDateTime",
+        "path": "MedicationAdministration.effectiveDateTime",
         "min": 0,
         "max": "1",
         "type": [

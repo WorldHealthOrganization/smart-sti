@@ -37,8 +37,8 @@
         "mustSupport": true
       },
       {
-        "id": "Condition.onsetdateTime",
-        "path": "Condition.onsetdateTime",
+        "id": "Condition.onsetDateTime",
+        "path": "Condition.onsetDateTime",
         "code": [
           {
             "system": "http://snomed.info/sct",
