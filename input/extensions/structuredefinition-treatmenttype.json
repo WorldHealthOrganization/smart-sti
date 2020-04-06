@@ -48,7 +48,7 @@
         "min": 1,
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "code"
           }
         ],
         "binding": {
