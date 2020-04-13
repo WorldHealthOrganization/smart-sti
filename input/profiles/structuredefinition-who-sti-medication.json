@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-medication",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medication",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-medication",
   "name": "WHO-STI Medication",
   "title": "WHO-STI Medication",
   "status": "draft",
@@ -31,7 +31,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/warning"
+              "http://fhir.org/guides/who/sti-cds/StructureDefinition/warning"
             ]
           }
         ]
@@ -44,7 +44,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-form-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/drug-form-values"
         }
       }
     ]

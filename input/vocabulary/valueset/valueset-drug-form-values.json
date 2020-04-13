@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "drug-form-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-form-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/drug-form-values",
   "name": "drug-form-values",
   "title": "Drug form values",
   "status": "draft",

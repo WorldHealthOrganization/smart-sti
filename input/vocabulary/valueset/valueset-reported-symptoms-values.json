@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "reported-symptoms-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/reported-symptoms-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/reported-symptoms-values",
   "name": "reported-symptoms-values",
   "title": "Reported symptoms values",
   "status": "draft",

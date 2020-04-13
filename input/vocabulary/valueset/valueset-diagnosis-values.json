@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "diagnosis-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/diagnosis-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/diagnosis-values",
   "name": "diagnosis-values",
   "title": "Diagnosis values",
   "status": "draft",

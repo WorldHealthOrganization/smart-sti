@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-condition-diagnosis",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-condition-diagnosis",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-condition-diagnosis",
   "name": "WHO-STI Condition (Diagnosis)",
   "title": "WHO-STI Condition (Diagnosis)",
   "status": "draft",
@@ -29,7 +29,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/diagnosis-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/diagnosis-values"
         }
       },
       {
@@ -47,7 +47,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/method-of-diagnosis-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/method-of-diagnosis-values"
         }
       }
     ]

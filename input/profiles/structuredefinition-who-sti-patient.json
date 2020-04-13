@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-patient",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-patient",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-patient",
   "name": "WHO-STI Patient",
   "title": "WHO-STI Patient",
   "status": "draft",
@@ -31,7 +31,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/consenttocontact"
+              "http://fhir.org/guides/who/sti-cds/StructureDefinition/consenttocontact"
             ]
           }
         ]
@@ -46,7 +46,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/contactneeded"
+              "http://fhir.org/guides/who/sti-cds/StructureDefinition/contactneeded"
             ]
           }
         ]

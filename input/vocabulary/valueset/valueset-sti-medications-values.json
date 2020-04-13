@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "sti-medications-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-medications-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-medications-values",
   "name": "sti-medications-values",
   "title": "STI treatment medication history values",
   "status": "draft",

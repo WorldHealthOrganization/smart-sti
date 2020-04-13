@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-medicationstatement-current-medication",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medicationstatement-current-medication",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-medicationstatement-current-medication",
   "name": "WHO-STI MedicationStatement (Current Medication)",
   "title": "WHO-STI MedicationStatement (Current Medication)",
   "status": "draft",
@@ -31,7 +31,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/treatmenttype"
+              "http://fhir.org/guides/who/sti-cds/StructureDefinition/treatmenttype"
             ]
           }
         ]
@@ -49,7 +49,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-medications-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-medications-values"
         }
       }
     ]

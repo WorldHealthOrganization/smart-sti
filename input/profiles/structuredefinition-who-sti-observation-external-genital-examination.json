@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-external-genital-examination",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-external-genital-examination",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-external-genital-examination",
   "name": "WHO-STI Observation (External Genital Examination)",
   "title": "WHO-STI Observation (External Genital Examination)",
   "status": "draft",
@@ -50,7 +50,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/external-genital-exam-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/external-genital-exam-values"
         }
       },
       {

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "consenttocontact",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/consenttocontact",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/consenttocontact",
   "name": "consentToContact",
   "title": "Partner communication consent",
   "status": "draft",
@@ -10,6 +10,12 @@
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation": "constraint",
@@ -32,7 +38,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/consenttocontact"
+        "fixedUri": "http://fhir.org/guides/who/sti-cds/StructureDefinition/consenttocontact"
       },
       {
         "id": "Extension.value[x]",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-careplan-recommendation",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-careplan-recommendation",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-careplan-recommendation",
   "name": "WHO-STI CarePlan (Recommendation)",
   "title": "WHO-STI CarePlan (Recommendation)",
   "status": "draft",
@@ -29,7 +29,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/hiv-positive-counseling-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/hiv-positive-counseling-values"
         }
       },
       {
@@ -40,7 +40,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-care-recommendation-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-care-recommendation-values"
         }
       },
       {
@@ -51,7 +51,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-treatment-recommendation-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-treatment-recommendation-values"
         }
       },
       {
@@ -69,7 +69,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/counseling-recommendations-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/counseling-recommendations-values"
         }
       }
     ]

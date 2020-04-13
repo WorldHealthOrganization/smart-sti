@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "test-status-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/test-status-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/test-status-values",
   "name": "test-status-values",
   "title": "Test status values",
   "status": "draft",

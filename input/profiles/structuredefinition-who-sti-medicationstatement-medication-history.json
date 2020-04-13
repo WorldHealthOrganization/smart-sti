@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-medicationstatement-medication-history",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medicationstatement-medication-history",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-medicationstatement-medication-history",
   "name": "WHO-STI MedicationStatement (Medication History)",
   "title": "WHO-STI MedicationStatement (Medication History)",
   "status": "draft",
@@ -34,7 +34,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-medications-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-medications-values"
         }
       },
       {

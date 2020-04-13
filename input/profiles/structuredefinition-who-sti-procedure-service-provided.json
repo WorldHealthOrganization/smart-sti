@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-procedure-service-provided",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-procedure-service-provided",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-procedure-service-provided",
   "name": "WHO-STI Procedure (Service Provided)",
   "title": "WHO-STI Procedure (Service Provided)",
   "status": "draft",
@@ -29,7 +29,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/clinical-exam-type-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/clinical-exam-type-values"
         }
       },
       {
@@ -47,7 +47,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/bimanual-exam-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/bimanual-exam-values"
         }
       },
       {

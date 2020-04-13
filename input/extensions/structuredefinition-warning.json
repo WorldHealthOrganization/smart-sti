@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "warning",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/warning",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/warning",
   "name": "warning",
   "title": "Drug warnings",
   "status": "draft",
@@ -10,6 +10,12 @@
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Medication"
+    }
+  ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation": "constraint",
@@ -32,7 +38,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/warning"
+        "fixedUri": "http://fhir.org/guides/who/sti-cds/StructureDefinition/warning"
       },
       {
         "id": "Extension.value[x]",
@@ -47,7 +53,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/drug-warnings-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/drug-warnings-values"
         }
       }
     ]

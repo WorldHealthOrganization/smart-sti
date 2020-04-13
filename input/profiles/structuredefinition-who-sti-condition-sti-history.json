@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-condition-sti-history",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-condition-sti-history",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-condition-sti-history",
   "name": "WHO-STI Condition (STI History)",
   "title": "WHO-STI Condition (STI History)",
   "status": "draft",
@@ -29,7 +29,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/clinical-status-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/clinical-status-values"
         }
       },
       {
@@ -40,7 +40,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/history-of-stis-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/history-of-stis-values"
         }
       },
       {
@@ -67,7 +67,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/sticonditiontype"
+              "http://fhir.org/guides/who/sti-cds/StructureDefinition/sticonditiontype"
             ]
           }
         ]

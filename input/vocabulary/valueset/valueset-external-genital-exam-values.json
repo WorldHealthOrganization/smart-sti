@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "external-genital-exam-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/external-genital-exam-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/external-genital-exam-values",
   "name": "external-genital-exam-values",
   "title": "External genital exam values",
   "status": "draft",

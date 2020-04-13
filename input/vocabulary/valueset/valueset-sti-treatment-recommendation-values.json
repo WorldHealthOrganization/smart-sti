@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "sti-treatment-recommendation-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-treatment-recommendation-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-treatment-recommendation-values",
   "name": "sti-treatment-recommendation-values",
   "title": "STI Treatment recommendation values",
   "status": "draft",

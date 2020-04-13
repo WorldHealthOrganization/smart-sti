@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-communication-partner",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-communication-partner",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-communication-partner",
   "name": "WHO-STI Communication (Partner)",
   "title": "WHO-STI Communication (Partner)",
   "status": "draft",

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "bimanual-exam-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/bimanual-exam-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/bimanual-exam-values",
   "name": "bimanual-exam-values",
   "title": "Bimanual exam values",
   "status": "draft",

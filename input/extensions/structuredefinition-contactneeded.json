@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "contactneeded",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/contactneeded",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/contactneeded",
   "name": "contactNeeded",
   "title": "Need to contact partner",
   "status": "draft",
@@ -10,6 +10,12 @@
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation": "constraint",
@@ -41,7 +47,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/contactneeded"
+        "fixedUri": "http://fhir.org/guides/who/sti-cds/StructureDefinition/contactneeded"
       },
       {
         "id": "Extension.value[x]",

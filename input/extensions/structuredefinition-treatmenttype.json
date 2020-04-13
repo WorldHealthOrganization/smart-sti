@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "treatmenttype",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/treatmenttype",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/treatmenttype",
   "name": "treatmentType",
   "title": "Type of treatment",
   "status": "draft",
@@ -9,6 +9,12 @@
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "MedicationStatement"
+    }
+  ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation": "constraint",
@@ -39,7 +45,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/treatmenttype"
+        "fixedUri": "http://fhir.org/guides/who/sti-cds/StructureDefinition/treatmenttype"
       },
       {
         "id": "Extension.value[x]",
@@ -53,7 +59,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/type-of-treatment-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/type-of-treatment-values"
         }
       }
     ]

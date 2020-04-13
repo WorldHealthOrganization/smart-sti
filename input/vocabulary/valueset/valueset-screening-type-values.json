@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "screening-type-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/screening-type-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/screening-type-values",
   "name": "screening-type-values",
   "title": "Screening type values",
   "status": "draft",

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "sti-care-recommendation-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-care-recommendation-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-care-recommendation-values",
   "name": "sti-care-recommendation-values",
   "title": "STI Care Recommendation values",
   "status": "draft",

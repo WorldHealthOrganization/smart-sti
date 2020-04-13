@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-increased-sti-risk",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-increased-sti-risk",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-increased-sti-risk",
   "name": "WHO-STI Observation (Increased STI Risk)",
   "title": "WHO-STI Observation (Increased STI Risk)",
   "status": "draft",

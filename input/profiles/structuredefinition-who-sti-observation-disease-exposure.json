@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-disease-exposure",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-disease-exposure",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-disease-exposure",
   "name": "WHO-STI Observation (Disease Exposure)",
   "title": "WHO-STI Observation (Disease Exposure)",
   "status": "draft",

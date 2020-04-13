@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "partner-hiv-status-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/partner-hiv-status-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/partner-hiv-status-values",
   "name": "partner-hiv-status-values",
   "title": "Partner HIV status values",
   "status": "draft",

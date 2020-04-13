@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "type-of-treatment-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/type-of-treatment-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/type-of-treatment-values",
   "name": "type-of-treatment-values",
   "title": "Type of treatment values",
   "status": "draft",

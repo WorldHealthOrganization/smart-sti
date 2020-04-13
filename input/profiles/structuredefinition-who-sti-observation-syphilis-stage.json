@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-syphilis-stage",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-syphilis-stage",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-syphilis-stage",
   "name": "WHO-STI Observation (Syphilis Stage)",
   "title": "WHO-STI Observation (Syphilis Stage)",
   "status": "draft",
@@ -50,7 +50,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/stage-of-syphilis-condition-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/stage-of-syphilis-condition-values"
         }
       }
     ]

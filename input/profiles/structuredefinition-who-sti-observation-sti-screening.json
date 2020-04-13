@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-sti-screening",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-sti-screening",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-sti-screening",
   "name": "WHO-STI Observation (STI Screening)",
   "title": "WHO-STI Observation (STI Screening)",
   "status": "draft",
@@ -38,7 +38,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/screening-type-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/screening-type-values"
         }
       },
       {
@@ -89,7 +89,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/test-status-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/test-status-values"
         }
       },
       {

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-recent-abortion-or-miscarriage",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-recent-abortion-or-miscarriage",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-recent-abortion-or-miscarriage",
   "name": "WHO-STI Observation (Recent Abortion or Miscarriage)",
   "title": "WHO-STI Observation (Recent Abortion or Miscarriage)",
   "status": "draft",

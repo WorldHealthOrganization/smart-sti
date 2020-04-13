@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-recent-syphilis-treatment",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-recent-syphilis-treatment",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-recent-syphilis-treatment",
   "name": "WHO-STI Observation (Recent Syphilis Treatment)",
   "title": "WHO-STI Observation (Recent Syphilis Treatment)",
   "status": "draft",
@@ -17,7 +17,7 @@
       {
         "id": "Observation",
         "path": "Observation",
-        "short": "Recent syphilis treatment ",
+        "short": "Recent syphilis treatment",
         "mustSupport": false
       },
       {

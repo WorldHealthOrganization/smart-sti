@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-medicationadministration",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-medicationadministration",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-medicationadministration",
   "name": "WHO-STI MedicationAdministration",
   "title": "WHO-STI MedicationAdministration",
   "status": "draft",
@@ -36,7 +36,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/route-of-administration-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/route-of-administration-values"
         }
       },
       {

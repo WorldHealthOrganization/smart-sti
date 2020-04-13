@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-specimen",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-specimen",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-specimen",
   "name": "WHO-STI Specimen",
   "title": "WHO-STI Specimen",
   "status": "draft",

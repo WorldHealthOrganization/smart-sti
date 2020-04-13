@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "method-of-diagnosis-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/method-of-diagnosis-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/method-of-diagnosis-values",
   "name": "method-of-diagnosis-values",
   "title": "Method of diagnosis values",
   "status": "draft",

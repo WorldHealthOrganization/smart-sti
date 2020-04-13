@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "sti-condition-type-values",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/sti-condition-type-values",
+  "url": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-condition-type-values",
   "name": "sti-condition-type-values",
   "title": "STI Condition type values",
   "status": "draft",

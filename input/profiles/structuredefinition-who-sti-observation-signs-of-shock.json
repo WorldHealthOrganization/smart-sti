@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-signs-of-shock",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-signs-of-shock",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-signs-of-shock",
   "name": "WHO-STI Observation (Signs of Shock)",
   "title": "WHO-STI Observation (Signs of Shock)",
   "status": "draft",

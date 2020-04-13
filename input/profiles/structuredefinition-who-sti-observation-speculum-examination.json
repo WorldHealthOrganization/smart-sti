@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-sti-observation-speculum-examination",
-  "url": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/StructureDefinition/who-sti-observation-speculum-examination",
+  "url": "http://fhir.org/guides/who/sti-cds/StructureDefinition/who-sti-observation-speculum-examination",
   "name": "WHO-STI Observation (Speculum Examination)",
   "title": "WHO-STI Observation (Speculum Examination)",
   "status": "draft",
@@ -50,7 +50,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/sti-cds/ImplementationGuide/sti-cds/ValueSet/speculum-exam-results-values"
+          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/speculum-exam-results-values"
         }
       },
       {
