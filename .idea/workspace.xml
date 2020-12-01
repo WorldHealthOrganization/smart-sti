@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0016f27f-20b3-4763-b202-50dbeb559754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_gencontinuous.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_gencontinuous.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_genonce.bat" beforeDir="false" afterPath="$PROJECT_DIR$/_genonce.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_genonce.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_genonce.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_refresh.bat" beforeDir="false" afterPath="$PROJECT_DIR$/_refresh.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_refresh.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_refresh.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updateCQFTooling.bat" beforeDir="false" afterPath="$PROJECT_DIR$/_updateCQFTooling.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updateCQFTooling.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_updateCQFTooling.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updatePublisher.bat" beforeDir="false" afterPath="$PROJECT_DIR$/_updatePublisher.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_updatePublisher.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_updatePublisher.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -74,6 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605110287998</updated>
       <workItem from="1605110289125" duration="2335000" />
+      <workItem from="1605118767462" duration="710000" />
+      <workItem from="1605883121135" duration="1343000" />
     </task>
     <servers />
   </component>
@@ -90,5 +88,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
