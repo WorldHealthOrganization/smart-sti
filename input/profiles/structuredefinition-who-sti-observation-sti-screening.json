@@ -6,7 +6,6 @@
   "title": "WHO-STI Observation (STI Screening)",
   "status": "draft",
   "experimental": false,
-  "description": "Write in other screenings if not included in the list",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -14,103 +13,51 @@
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
-    "element": [
-      {
-        "id": "Observation",
-        "path": "Observation",
-        "short": "Other (specify)",
-        "mustSupport": false
+    "element": [ {
+      "id": "Observation",
+      "path": "Observation",
+      "mustSupport": false
+    }, {
+      "id": "Observation.code",
+      "path": "Observation.code",
+      "min": 1,
+      "max": "1",
+      "fixedCodeableConcept": {
+        "coding": [ {
+          "system": "http://who.int/cg/CodeSystem/extended-content",
+          "code": "Screening Result",
+          "display": "Screening Result (FHIR)"
+        } ]
       },
-      {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "min": 0,
-        "max": "1",
-        "fixedCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://who.int/cg/CodeSystem/extended-content",
-              "code": "Screening Result",
-              "display": "Screening Result (FHIR)"
-            }
-          ]
-        },
-        "mustSupport": true,
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/screening-type-values"
-        }
-      },
-      {
-        "id": "Observation.code.text",
-        "path": "Observation.code.text",
-        "min": 0,
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.complicated",
-        "path": "Observation.complicated",
-        "code": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "26039008",
-            "display": "Complicated condition (SNOMED-CT)"
-          }
-        ],
-        "min": 0,
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.effectiveDateTime",
-        "path": "Observation.effectiveDateTime",
-        "code": [
-          {
-            "system": "http://who.int/cg/CodeSystem/extended-content",
-            "code": "Date of Screening",
-            "display": "Date of Screening (FHIR)"
-          }
-        ],
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.status",
-        "path": "Observation.status",
-        "min": 0,
-        "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/test-status-values"
-        }
-      },
-      {
-        "id": "Observation.valueCodeableConcept",
-        "path": "Observation.valueCodeableConcept",
-        "code": [
-          {
-            "system": "http://who.int/cg/CodeSystem/extended-content",
-            "code": "Screening Result",
-            "display": "Screening Result (FHIR)"
-          }
-        ],
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "mustSupport": true
-      }
-    ]
+      "mustSupport": true
+    }, {
+      "id": "Observation.effectiveDateTime",
+      "path": "Observation.effectiveDateTime",
+      "code": [ {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "code": "Date of Screening",
+        "display": "Date of Screening (FHIR)"
+      } ],
+      "min": 0,
+      "max": "1",
+      "type": [ {
+        "code": "dateTime"
+      } ],
+      "mustSupport": true
+    }, {
+      "id": "Observation.valueCodeableConcept",
+      "path": "Observation.valueCodeableConcept",
+      "code": [ {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "code": "Screening Result",
+        "display": "Screening Result (FHIR)"
+      } ],
+      "min": 0,
+      "max": "1",
+      "type": [ {
+        "code": "CodeableConcept"
+      } ],
+      "mustSupport": true
+    } ]
   }
 }
