@@ -9,33 +9,12 @@
   "description": "Codes representing possible values for the STI Care Recommendation element",
   "immutable": true,
   "compose": {
-    "include": [
-      {
-        "system": "http://hl7.org/fhir/sid/icd-10",
-        "concept": [
-          {
-            "code": "Z31.00",
-            "display": "Perform pregnancy test"
-          },
-          {
-            "code": "Z32.01",
-            "display": "Perform pregnancy test"
-          },
-          {
-            "code": "Z32.02",
-            "display": "Perform pregnancy test"
-          }
-        ]
-      },
-      {
-        "system": "http://who.int/cg/CodeSystem/extended-content",
-        "concept": [
-          {
-            "code": "Partner management recommended",
-            "display": "Partner management recommended"
-          }
-        ]
-      }
-    ]
+    "include": [ {
+      "system": "http://who.int/cg/CodeSystem/extended-content",
+      "concept": [ {
+        "code": "Partner management recommended",
+        "display": "Partner management recommended"
+      } ]
+    } ]
   }
 }

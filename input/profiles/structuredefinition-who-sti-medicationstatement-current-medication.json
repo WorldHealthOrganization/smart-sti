@@ -6,7 +6,7 @@
   "title": "WHO-STI MedicationStatement (Current Medication)",
   "status": "draft",
   "experimental": false,
-  "description": "Drugs prescribed to treat the diagnosis ",
+  "description": "Drugs prescribed to treat the diagnosis",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -14,44 +14,24 @@
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
   "derivation": "constraint",
   "differential": {
-    "element": [
-      {
-        "id": "MedicationStatement",
-        "path": "MedicationStatement",
-        "short": "Prescribed drugs",
-        "mustSupport": false
-      },
-      {
-        "id": "MedicationStatement.extension:treatmentType",
-        "path": "MedicationStatement.extension",
-        "sliceName": "treatmentType",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://fhir.org/guides/who/sti-cds/StructureDefinition/treatmenttype"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "MedicationStatement.medicationCodeableConcept",
-        "path": "MedicationStatement.medicationCodeableConcept",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-medications-values"
-        }
+    "element": [ {
+      "id": "MedicationStatement",
+      "path": "MedicationStatement",
+      "short": "Prescribed drugs",
+      "mustSupport": false
+    }, {
+      "id": "MedicationStatement.medicationCodeableConcept",
+      "path": "MedicationStatement.medicationCodeableConcept",
+      "min": 0,
+      "max": "*",
+      "type": [ {
+        "code": "CodeableConcept"
+      } ],
+      "mustSupport": true,
+      "binding": {
+        "strength": "extensible",
+        "valueSet": "http://fhir.org/guides/who/sti-cds/ValueSet/sti-medications-values"
       }
-    ]
+    } ]
   }
 }
