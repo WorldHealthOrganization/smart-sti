@@ -6,7 +6,7 @@
   "title": "WHO-STI Condition (HIV)",
   "status": "draft",
   "experimental": false,
-  "description": "If woman knows she's HIV+, record the date of her diagnosis.",
+  "description": "Calculated field for woman's HIV status.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -14,47 +14,18 @@
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
   "derivation": "constraint",
   "differential": {
-    "element": [
-      {
-        "id": "Condition",
-        "path": "Condition",
-        "label": "hiv_diagnosis_date",
-        "short": "HIV diagnosis date",
-        "mustSupport": false
-      },
-      {
-        "id": "Condition.code",
-        "path": "Condition.code",
-        "code": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "365866002",
-            "display": "Calculation - HIV Positive (SNOMED-CT)"
-          }
-        ],
-        "min": 0,
-        "max": "1",
-        "mustSupport": true
-      },
-      {
-        "id": "Condition.onsetDateTime",
-        "path": "Condition.onsetDateTime",
-        "code": [
-          {
-            "system": "http://snomed.info/sct",
-            "code": "365866002",
-            "display": "HIV diagnosis date (SNOMED-CT)"
-          }
-        ],
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
-        "mustSupport": true
-      }
-    ]
+    "element": [ {
+      "id": "Condition",
+      "path": "Condition",
+      "label": "hiv_positive",
+      "short": "NA",
+      "mustSupport": false
+    }, {
+      "id": "Condition.code",
+      "path": "Condition.code",
+      "min": 0,
+      "max": "1",
+      "mustSupport": true
+    } ]
   }
 }

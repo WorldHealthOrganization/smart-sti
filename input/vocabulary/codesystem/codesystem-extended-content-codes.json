@@ -3,212 +3,23 @@
   "id": "extended-content-codes",
   "url": "http://who.int/cg/CodeSystem/extended-content-codes",
   "name": "extended-content_codes",
-  "title": "WHO Extended Codes CodeSystem codes",
+  "title": "Extended Codes CodeSystem codes",
   "status": "draft",
   "experimental": false,
   "description": "Set of codes identified as being needed but not found in existing Code Systems",
   "caseSensitive": true,
   "content": "complete",
-  "concept": [
-    {
-      "code": "Unknown",
-      "display": "Unknown",
-      "definition": "Clinical status - Unknown"
-    },
-    {
-      "code": "Ulcer in reproductive tract",
-      "display": "Ulcer in reproductive tract",
-      "definition": "Reported symptoms - Ulcer in reproductive tract"
-    },
-    {
-      "code": "Clusters of erythematous papules",
-      "display": "Clusters of erythematous papules",
-      "definition": "Reported symptoms - Clusters of erythematous papules"
-    },
-    {
-      "code": "Groin ulcer",
-      "display": "Groin ulcer",
-      "definition": "Reported symptoms - Groin ulcer"
-    },
-    {
-      "code": "Cervical infection",
-      "display": "Cervical infection",
-      "definition": "Reported symptoms - Cervical infection"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Reported symptoms - Other (specify)"
-    },
-    {
-      "code": "Partner has symptoms",
-      "display": "Partner has symptoms",
-      "definition": "Partner has symptoms"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Clinical exam type - Other (specify)"
-    },
-    {
-      "code": "Ulcers",
-      "display": "Ulcers",
-      "definition": "External genital - Ulcers"
-    },
-    {
-      "code": "Sores",
-      "display": "Sores",
-      "definition": "External genital - Sores"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "External genital - Other (specify)"
-    },
-    {
-      "code": "Speculum Exam Results",
-      "display": "Speculum Exam Results",
-      "definition": "Speculum Exam Results"
-    },
-    {
-      "code": "Sores",
-      "display": "Sores",
-      "definition": "Speculum - Sores"
-    },
-    {
-      "code": "Cervix bleeds easily when touched",
-      "display": "Cervix bleeds easily when touched",
-      "definition": "Speculum - Cervix bleeds easily when touched"
-    },
-    {
-      "code": "Abnormal cervical tissue",
-      "display": "Abnormal cervical tissue",
-      "definition": "Speculum - Abnormal cervical tissue"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Speculum - Other (specify)"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Bimanual exam - Other (specify)"
-    },
-    {
-      "code": "STI Condition type",
-      "display": "STI Condition type",
-      "definition": "STI Condition type"
-    },
-    {
-      "code": "infection",
-      "display": "infection",
-      "definition": "Condition type - infection"
-    },
-    {
-      "code": "History of trauma",
-      "display": "History of trauma",
-      "definition": "History of trauma"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Screening type - Other (specify)"
-    },
-    {
-      "code": "Date of Screening",
-      "display": "Date of Screening",
-      "definition": "Date of Screening"
-    },
-    {
-      "code": "Screening Result",
-      "display": "Screening Result",
-      "definition": "Screening Result"
-    },
-    {
-      "code": "Specimen collection",
-      "display": "Specimen collection",
-      "definition": "Specimen collection"
-    },
-    {
-      "code": "Partner HIV status",
-      "display": "Partner HIV status",
-      "definition": "Partner HIV status"
-    },
-    {
-      "code": "Not Done",
-      "display": "Not done",
-      "definition": "HIV positive counseling - Not done"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Diagnosis - Other (specify)"
-    },
-    {
-      "code": "Method of diagnosis",
-      "display": "Method of diagnosis",
-      "definition": "Method of diagnosis"
-    },
-    {
-      "code": "Syphilis Stage",
-      "display": "Stage of Syphilis condition",
-      "definition": "Stage of Syphilis condition"
-    },
-    {
-      "code": "Partner management recommended",
-      "display": "Partner management recommended",
-      "definition": "Partner management recommended"
-    },
-    {
-      "code": "Other",
-      "display": "Other (specify)",
-      "definition": "Treatment recommendation - Other (specify)"
-    },
-    {
-      "code": "Other",
-      "display": "Other",
-      "definition": "Prescribed drugs - Other"
-    },
-    {
-      "code": "Type of treatment",
-      "display": "Type of treatment",
-      "definition": "Type of treatment"
-    },
-    {
-      "code": "dual therapy",
-      "display": "dual therapy",
-      "definition": "Type of treatment - dual therapy"
-    },
-    {
-      "code": "episodic therapy",
-      "display": "episodic therapy",
-      "definition": "Type of treatment - episodic therapy"
-    },
-    {
-      "code": "single therapy",
-      "display": "single therapy",
-      "definition": "Type of treatment - single therapy"
-    },
-    {
-      "code": "WHO recommended therapy (not entered)",
-      "display": "WHO recommended therapy (not entered)",
-      "definition": "Type of treatment - WHO recommended therapy (not entered)"
-    },
-    {
-      "code": "suppressive therapy",
-      "display": "suppressive therapy",
-      "definition": "Type of treatment - suppressive therapy"
-    },
-    {
-      "code": "application",
-      "display": "application",
-      "definition": "Type of treatment - application"
-    },
-    {
-      "code": "provide partner treatment",
-      "display": "provide partner treatment",
-      "definition": "Counseling recommendations - provide partner treatment"
-    }
-  ]
+  "concept": [ {
+    "code": "Date of Screening",
+    "display": "Date of Screening",
+    "definition": "Date of Screening"
+  }, {
+    "code": "Screening Result",
+    "display": "Screening Result",
+    "definition": "Screening Result"
+  }, {
+    "code": "Partner management recommended",
+    "display": "Partner management recommended",
+    "definition": "Partner management recommended"
+  } ]
 }
