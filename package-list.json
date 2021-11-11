@@ -1,0 +1,22 @@
+{
+ "package-id" : "who.fhir.sti-cds",
+ "title" : "WHO - Strategy on Sexually Transmitted Infections",
+ "canonical" : "http://fhir.org/guides/who/sti-cds",
+ "category": "Quality / CDS",
+ "introduction" : "This implementation guide defines data element profiles for the World Health Organization (WHO) Sexually Transmitted Infection smart guideline.",
+ "list" : [{
+  "version" : "current",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : "http://build.fhir.org/ig/WorldHealthOrganization/smart-sti",
+  "status" : "ci-build",
+  "current" : true
+ }, {
+  "version" : "0.2.0",
+  "fhirversion": "4.0.1",
+  "date": "2021-04-15",
+  "desc" : "Release 1",
+  "path" : "http://fhir.org/guides/who/sti-cds",
+  "status": "active",
+  "sequence": "Release 1"
+ }]
+}
